@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端用到的算法.md",
+            "file": "如何使用Obsidian-Git.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端用到的算法.md",
+                "file": "如何使用Obsidian-Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端用到的算法.md"
+                "file": "如何使用Obsidian-Git.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端用到的算法.md",
+                "file": "如何使用Obsidian-Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,6 +138,7 @@
   },
   "active": "746d95fcc97b22a8",
   "lastOpenFiles": [
+    "如何使用Obsidian-Git.md",
     "前端用到的算法.md",
     "jar文件是什么.md",
     "maven是什么.md",
@@ -146,7 +147,6 @@
     "100-卡片/法国第一波女权主义者.md",
     "100-卡片/反女权主义存在？.md",
     "200-写作/大纲.md",
-    "100-卡片/在中国，女性不劳而获的“诱惑”在被反对.md",
-    "100-卡片/中国女权主义被民族主义叙事裹挟.md"
+    "100-卡片/在中国，女性不劳而获的“诱惑”在被反对.md"
   ]
 }
