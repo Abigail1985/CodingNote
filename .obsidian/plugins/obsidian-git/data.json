@@ -12,7 +12,7 @@
   "updateSubmodules": false,
   "syncMethod": "merge",
   "gitPath": "",
-  "customMessageOnAutoBackup": false,
+  "customMessageOnAutoBackup": true,
   "autoBackupAfterFileChange": true,
   "treeStructure": false
 }
