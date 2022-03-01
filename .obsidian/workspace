@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#安卓",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,14 +140,14 @@
   "active": "746d95fcc97b22a8",
   "lastOpenFiles": [
     "创建activity时为什么要写super.onCreate.md",
-    "如何更新博客.md",
+    "安卓布局文件中@+id和@id.md",
+    "maven是什么.md",
+    "前端用到的算法.md",
     "transpiler翻译器.md",
     "如何使用Obsidian-Git.md",
+    "如何更新博客.md",
     "Devonthink+Obsidian管理知识体系.md",
-    "前端用到的算法.md",
     "jar文件是什么.md",
-    "maven是什么.md",
-    "another-test.md",
-    "100-卡片/法国第一波女权主义者.md"
+    "another-test.md"
   ]
 }
