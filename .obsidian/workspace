@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "如何使用Obsidian-Git.md",
+            "file": "将shh key 添加到github.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "如何使用Obsidian-Git.md",
+                "file": "将shh key 添加到github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "如何使用Obsidian-Git.md"
+                "file": "将shh key 添加到github.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "如何使用Obsidian-Git.md",
+                "file": "将shh key 添加到github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,6 +139,7 @@
   },
   "active": "e22dc6d9e4438fcf",
   "lastOpenFiles": [
+    "将shh key 添加到github.md",
     "如何使用Obsidian-Git.md",
     "显式intent的使用.md",
     "安卓的context类.md",
@@ -147,7 +148,6 @@
     "Java反射机制.md",
     "java的class类.md",
     "maven是什么.md",
-    "Java bean和Kotlin语法糖.md",
-    "Devonthink+Obsidian管理知识体系.md"
+    "Java bean和Kotlin语法糖.md"
   ]
 }
