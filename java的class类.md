@@ -42,3 +42,4 @@ Class clz = str.getClass();
 ### Class类的静态方法
 [link](http://www.51gjie.com/java/777.html)
 
+#java
