@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "如何更新博客.md",
+            "file": "创建activity时为什么要写super.onCreate.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "如何更新博客.md",
+                "file": "创建activity时为什么要写super.onCreate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "如何更新博客.md"
+                "file": "创建activity时为什么要写super.onCreate.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "如何更新博客.md",
+                "file": "创建activity时为什么要写super.onCreate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,6 +138,7 @@
   },
   "active": "746d95fcc97b22a8",
   "lastOpenFiles": [
+    "创建activity时为什么要写super.onCreate.md",
     "如何更新博客.md",
     "transpiler翻译器.md",
     "如何使用Obsidian-Git.md",
@@ -146,7 +147,6 @@
     "jar文件是什么.md",
     "maven是什么.md",
     "another-test.md",
-    "100-卡片/法国第一波女权主义者.md",
-    "100-卡片/反女权主义存在？.md"
+    "100-卡片/法国第一波女权主义者.md"
   ]
 }
