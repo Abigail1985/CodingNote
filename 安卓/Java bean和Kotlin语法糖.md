@@ -26,5 +26,5 @@ val bookPages = book.pages
 这里看上去好像我们并没有调用Book类的setPages()和getPages()方法，而是直接对 pages字段进行了赋值和读取。其实这就是Kotlin给我们提供的语法糖，它会在背后自动将上述 代码转换成调用setPages()方法和getPages()方法。
 
 #安卓
-#Kotlin
+#kotlin
 #java

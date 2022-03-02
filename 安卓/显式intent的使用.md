@@ -30,4 +30,4 @@ Kotlin中` SecondActivity::class.java`的写法就相当于Java中`SecondActivit
 [[Java反射机制]]
 
 #安卓 
-#Kotlin 
+#kotlin 

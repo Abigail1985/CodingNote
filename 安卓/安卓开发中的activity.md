@@ -18,6 +18,6 @@
 最后一个是主activity,前3个不是
 
 #安卓
-#Kotlin
+#kotlin
 
 [[创建activity时为什么要写super.onCreate]]
