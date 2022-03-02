@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "安卓/Kotlin 中的问号.md",
+            "file": "Kotlin的 when 表达式.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安卓/Kotlin 中的问号.md",
+                "file": "Kotlin的 when 表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安卓/Kotlin 中的问号.md"
+                "file": "Kotlin的 when 表达式.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安卓/Kotlin 中的问号.md",
+                "file": "Kotlin的 when 表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,7 @@
   },
   "active": "395f414932b567d0",
   "lastOpenFiles": [
+    "Kotlin的 when 表达式.md",
     "安卓/Kotlin 中的问号.md",
     "安卓/Java bean和Kotlin语法糖.md",
     "安卓/避免参数传递的 activity 启动函数.md",
@@ -147,7 +148,6 @@
     "安卓/安卓开发中的activity.md",
     "安卓/创建activity时为什么要写super.onCreate.md",
     "安卓/kotlin的with,run,apply函数.md",
-    "安卓/Kotlion 伴生对象.md",
-    "Java/java的class类.md"
+    "安卓/Kotlion 伴生对象.md"
   ]
 }
