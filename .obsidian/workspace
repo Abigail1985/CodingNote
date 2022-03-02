@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e22dc6d9e4438fcf",
+        "id": "6faf6f5f273ca832",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "安卓中的 Bundle 作用.md",
+            "file": "未命名.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#java",
+                "query": "tag:#安卓",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安卓中的 Bundle 作用.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安卓中的 Bundle 作用.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安卓中的 Bundle 作用.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,17 +137,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e22dc6d9e4438fcf",
+  "active": "6faf6f5f273ca832",
   "lastOpenFiles": [
-    "安卓中的 Bundle 作用.md",
+    "未命名.md",
+    "Java/java的class类.md",
+    "Java/Java 的泛型和 C++的模板.md",
+    "Java/Java泛型和反射.md",
+    "Java/Java反射机制.md",
+    "安卓/安卓中的 Bundle 作用.md",
     "安卓/如何向下一个 Activity 传递数据.md",
     "工具/如何使用Obsidian-Git.md",
     "工具/半角和全角符号.md",
-    "Java泛型和反射.md",
-    "java的class类.md",
-    "Java反射机制.md",
-    "工具/Devonthink+Obsidian管理知识体系.md",
-    "工具/Devonthink中将相同标签文件放入一个文件中.md",
-    "工具/zerotier提示Waiting for ZeroTier system service.md"
+    "工具/Devonthink+Obsidian管理知识体系.md"
   ]
 }
