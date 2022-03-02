@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "83ca201b96638adb",
+        "id": "395f414932b567d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "静态函数.md",
+            "file": "安卓/Kotlin 中的问号.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "通配",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "静态函数.md",
+                "file": "安卓/Kotlin 中的问号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "静态函数.md"
+                "file": "安卓/Kotlin 中的问号.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "静态函数.md",
+                "file": "安卓/Kotlin 中的问号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +137,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "83ca201b96638adb",
+  "active": "395f414932b567d0",
   "lastOpenFiles": [
-    "静态函数.md",
-    "安卓/kotlin的with,run,apply函数.md",
-    "Java/Java反射机制.md",
-    "Java/Java泛型和反射.md",
-    "Java/java的class类.md",
-    "Java/Java 中的lambda 表达式.md",
-    "Java/Java 的泛型和 C++的模板.md",
-    "Java/Java 的 StringBuilder 对象.md",
+    "安卓/Kotlin 中的问号.md",
+    "安卓/Java bean和Kotlin语法糖.md",
     "安卓/避免参数传递的 activity 启动函数.md",
-    "安卓/Kotlion 伴生对象.md"
+    "安卓/显式intent的使用.md",
+    "安卓/jar文件是什么.md",
+    "安卓/安卓开发中的activity.md",
+    "安卓/创建activity时为什么要写super.onCreate.md",
+    "安卓/kotlin的with,run,apply函数.md",
+    "安卓/Kotlion 伴生对象.md",
+    "Java/java的class类.md"
   ]
 }
