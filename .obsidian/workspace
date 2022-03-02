@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "安卓/如何向下一个 Activity 传递数据.md",
+            "file": "安卓中的 Bundle 作用.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安卓/如何向下一个 Activity 传递数据.md",
+                "file": "安卓中的 Bundle 作用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安卓/如何向下一个 Activity 传递数据.md"
+                "file": "安卓中的 Bundle 作用.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安卓/如何向下一个 Activity 传递数据.md",
+                "file": "安卓中的 Bundle 作用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,6 +139,7 @@
   },
   "active": "e22dc6d9e4438fcf",
   "lastOpenFiles": [
+    "安卓中的 Bundle 作用.md",
     "安卓/如何向下一个 Activity 传递数据.md",
     "工具/如何使用Obsidian-Git.md",
     "工具/半角和全角符号.md",
@@ -147,7 +148,6 @@
     "Java反射机制.md",
     "工具/Devonthink+Obsidian管理知识体系.md",
     "工具/Devonthink中将相同标签文件放入一个文件中.md",
-    "工具/zerotier提示Waiting for ZeroTier system service.md",
-    "工具/将shh key 添加到github.md"
+    "工具/zerotier提示Waiting for ZeroTier system service.md"
   ]
 }
