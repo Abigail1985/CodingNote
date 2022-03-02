@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Java/Java 的 StringBuilder 对象.md",
+            "file": "静态函数.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,14 +78,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java 的 StringBuilder 对象.md",
+                "file": "静态函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java 的 StringBuilder 对象.md"
+                "file": "静态函数.md"
               }
             }
           },
@@ -116,9 +116,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java 的 StringBuilder 对象.md",
+                "file": "静态函数.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "83ca201b96638adb",
   "lastOpenFiles": [
-    "Java/Java 的 StringBuilder 对象.md",
-    "Java/Java 中的lambda 表达式.md",
     "静态函数.md",
-    "Java/java的class类.md",
-    "Java/Java 的泛型和 C++的模板.md",
-    "Java/Java泛型和反射.md",
+    "安卓/kotlin的with,run,apply函数.md",
     "Java/Java反射机制.md",
-    "安卓/安卓中的 Bundle 作用.md",
-    "安卓/如何向下一个 Activity 传递数据.md",
-    "工具/如何使用Obsidian-Git.md"
+    "Java/Java泛型和反射.md",
+    "Java/java的class类.md",
+    "Java/Java 中的lambda 表达式.md",
+    "Java/Java 的泛型和 C++的模板.md",
+    "Java/Java 的 StringBuilder 对象.md",
+    "安卓/避免参数传递的 activity 启动函数.md",
+    "安卓/Kotlion 伴生对象.md"
   ]
 }
