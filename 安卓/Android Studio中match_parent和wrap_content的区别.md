@@ -1,0 +1,9 @@
+Android中所有的控件都具有这两个属性，可选值有3种：match_parent、fill_parent、wrap_content.
+
+其中match_parent和fill_parent的意义相同，但官方更推荐match_parent.
+
+match_parent表示让当前控件的大小和父布局的大小一样，也就是由父布局来决定当前控件的大小
+
+wrap_content表示让当前的控件大小能够刚好包含里面的内容，也就是由控件内容决定当前控件的大小
+
+#安卓
