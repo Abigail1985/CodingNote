@@ -7,13 +7,8 @@
         "id": "395f414932b567d0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Kotlin 默认任何一个非抽象类都不可以被继承的.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -41,11 +36,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "通配",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin 默认任何一个非抽象类都不可以被继承的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kotlin 默认任何一个非抽象类都不可以被继承的.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin 默认任何一个非抽象类都不可以被继承的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +130,15 @@
   },
   "active": "395f414932b567d0",
   "lastOpenFiles": [
-    "Kotlin 默认任何一个非抽象类都不可以被继承的.md",
-    "kotlin 的继承时父类后面的括号.md",
+    "Kotlin/Kotlin 伴生对象.md",
+    "Kotlin/kotlin的with,run,apply函数.md",
+    "Kotlin/Java bean和Kotlin语法糖.md",
+    "Java/Java的接口.md",
+    "Kotlin/Kotlin 默认任何一个非抽象类都不可以被继承的.md",
+    "Kotlin/kotlin 的继承时父类后面的括号.md",
     "Cpp/北大Cpp笔记/北大Cpp笔记.md",
-    "Kotlin的 when 表达式.md",
+    "Kotlin/Kotlin的 when 表达式.md",
     "Cpp/北大Cpp笔记/assets/image-20210318145709507.png",
-    "Cpp/北大Cpp笔记/assets/image-20210315213935514.png",
-    "Cpp/北大Cpp笔记/assets/image-20210304144737070.png",
-    "Cpp/北大Cpp笔记/assets/2020-10-09-12-18.png",
-    "Cpp/北大Cpp笔记/assets/2020-10-09-12-20-16.png",
-    "Cpp/北大Cpp笔记/assets/image-20210318145751989.png"
+    "Cpp/北大Cpp笔记/assets/image-20210315213935514.png"
   ]
 }

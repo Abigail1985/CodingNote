@@ -28,7 +28,7 @@ class SecondActivity : BaseActivity() {
 ```
 
 在这里我们使用了一个新的语法结构companion object，并在companion object中定义 了一个actionStart()方法。之所以要这样写，是因为Kotlin规定，所**有定义在companion object中的方法都可以使用类似于Java静态方法的形式调用**。
-[[Kotlion 伴生对象]]
+[[Kotlin 伴生对象]]
 
 接下来我们重点看actionStart()方法，在这个方法中完成了Intent的构建，另外所有 SecondActivity中需要的数据都是通过actionStart()方法的参数传递过来的，然后把它们 存储到Intent中，最后调用startActivity()方法启动SecondActivity。
 
