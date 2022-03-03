@@ -4,7 +4,7 @@
   "promptDelete": false,
   "foldIndent": true,
   "foldHeading": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./attachments",
   "showUnsupportedFiles": true
