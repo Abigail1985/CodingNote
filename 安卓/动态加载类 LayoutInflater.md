@@ -1,4 +1,6 @@
-目的是让程序能够根据设备的分辨率或屏幕大小，在运行时决定加载哪个布局, 用setContentView 的话, 在编译时就已经写死了,没办法动态决定.
+通过LayoutInﬂater的from()方法可以**构建出 一个LayoutInflater对象**，然后调用inflate()方法就可以**动态加载一个布局文件**。
+
+LayoutInﬂater类的目的是让程序能够根据设备的分辨率或屏幕大小，在运行时决定加载哪个布局, 用setContentView 的话, 在编译时就已经写死了,没办法动态决定.
 
 LayoutInflater这个类最主要的功能就是实现**将xml表述的layout转化为View的功能**。
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/js用promise解决回调地狱.md",
+            "file": "安卓/动态加载类 LayoutInflater.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 190.5
+    "width": 291.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js用promise解决回调地狱.md",
+                "file": "安卓/动态加载类 LayoutInflater.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js用promise解决回调地狱.md"
+                "file": "安卓/动态加载类 LayoutInflater.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js用promise解决回调地狱.md",
+                "file": "安卓/动态加载类 LayoutInflater.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,7 @@
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "安卓/动态加载类 LayoutInflater.md",
     "前端/js用promise解决回调地狱.md",
     "前端/js回调.md",
     "前端/js与用户交互的 3 个浏览器函数.md",
@@ -148,7 +149,6 @@
     "前端/js 的异步.md",
     "未命名.md",
     "variable.svg.md",
-    "前端/前端用到的算法.md",
-    "安卓/动态加载类 LayoutInflater.md"
+    "前端/前端用到的算法.md"
   ]
 }
