@@ -7,8 +7,13 @@
         "id": "395f414932b567d0",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "前端/前端用到的算法.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端/前端用到的算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端/前端用到的算法.md"
+              }
             }
           },
           {
@@ -108,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端/前端用到的算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "395f414932b567d0",
   "lastOpenFiles": [
+    "前端/前端用到的算法.md",
+    "安卓/动态加载类 LayoutInflater.md",
+    "安卓/View和 ViewGroup.md",
+    "安卓/images/控件和布局的继承结构.jpg",
     "Kotlin/Kotlin 伴生对象.md",
     "Kotlin/kotlin的with,run,apply函数.md",
     "Kotlin/Java bean和Kotlin语法糖.md",
     "Java/Java的接口.md",
     "Kotlin/Kotlin 默认任何一个非抽象类都不可以被继承的.md",
-    "Kotlin/kotlin 的继承时父类后面的括号.md",
-    "Cpp/北大Cpp笔记/北大Cpp笔记.md",
-    "Kotlin/Kotlin的 when 表达式.md",
-    "Cpp/北大Cpp笔记/assets/image-20210318145709507.png",
-    "Cpp/北大Cpp笔记/assets/image-20210315213935514.png"
+    "Kotlin/kotlin 的继承时父类后面的括号.md"
   ]
 }
