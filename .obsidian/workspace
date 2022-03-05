@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9813bff4f735c817",
+        "id": "352385c8a4b9ad59",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/js与用户交互的 3 个浏览器函数.md",
+            "file": "前端/js用promise解决回调地狱.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js与用户交互的 3 个浏览器函数.md",
+                "file": "前端/js用promise解决回调地狱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js与用户交互的 3 个浏览器函数.md"
+                "file": "前端/js用promise解决回调地狱.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js与用户交互的 3 个浏览器函数.md",
+                "file": "前端/js用promise解决回调地狱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9813bff4f735c817",
+  "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "前端/js用promise解决回调地狱.md",
+    "前端/js回调.md",
     "前端/js与用户交互的 3 个浏览器函数.md",
-    "前端/JS 包含字符串的反括号.md",
-    "前端/JS的变量.md",
+    "前端/js包含字符串的反括号.md",
+    "前端/js的变量.md",
+    "前端/js 的异步.md",
+    "未命名.md",
     "variable.svg.md",
     "前端/前端用到的算法.md",
-    "安卓/动态加载类 LayoutInflater.md",
-    "安卓/View和 ViewGroup.md",
-    "安卓/images/控件和布局的继承结构.jpg",
-    "Kotlin/Kotlin 伴生对象.md",
-    "Kotlin/kotlin的with,run,apply函数.md"
+    "安卓/动态加载类 LayoutInflater.md"
   ]
 }
