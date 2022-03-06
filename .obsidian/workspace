@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/js 的 async和 await.md",
+            "file": "安卓/SetContentView 和 LayoutInflater异同.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/js 的 async和 await.md",
+                "file": "安卓/SetContentView 和 LayoutInflater异同.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js 的 async和 await.md"
+                "file": "安卓/SetContentView 和 LayoutInflater异同.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js 的 async和 await.md",
+                "file": "安卓/SetContentView 和 LayoutInflater异同.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,16 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "安卓/SetContentView 和 LayoutInflater异同.md",
+    "安卓/Android Studio中match_parent和wrap_content的区别.md",
     "前端/js 的 async和 await.md",
     "安卓/动态加载类 LayoutInflater.md",
     "前端/js用promise解决回调地狱.md",
@@ -147,8 +148,6 @@
     "前端/js与用户交互的 3 个浏览器函数.md",
     "前端/js包含字符串的反括号.md",
     "前端/js的变量.md",
-    "前端/js 的异步.md",
-    "variable.svg.md",
-    "前端/前端用到的算法.md"
+    "前端/js 的异步.md"
   ]
 }
