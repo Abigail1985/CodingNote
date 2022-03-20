@@ -1,0 +1,1 @@
+[Android开发——手把手写APP（三）调用有道词典翻译API实现的翻译APP（详细备注解读）_奔跑的狮子a的博客-CSDN博客_android 有道api](https://blog.csdn.net/weixin_42247720/article/details/97383043)
