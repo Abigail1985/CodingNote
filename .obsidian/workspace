@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "设计模式-Builder建造者模式.md",
+            "file": "ReactJS的参数-props.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式-Builder建造者模式.md",
+                "file": "ReactJS的参数-props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式-Builder建造者模式.md"
+                "file": "ReactJS的参数-props.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式-Builder建造者模式.md",
+                "file": "ReactJS的参数-props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,10 +135,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "ReactJS的参数-props.md",
     "设计模式-Builder建造者模式.md",
     "作业-翻译app.md",
     "作业-重复请求缓存功能.md",
@@ -147,7 +149,6 @@
     "javascript的扩展语句-省略号.md",
     "java中Calendar类常用方法.md",
     "nodejs的cluster.md",
-    "nodejs的worker.md",
-    "安卓/kotlin中多线程编程.md"
+    "nodejs的worker.md"
   ]
 }
