@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "todomvc实现笔记.md",
+            "file": "安卓需在manifest中添加网络访问权限.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todomvc实现笔记.md",
+                "file": "安卓需在manifest中添加网络访问权限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todomvc实现笔记.md"
+                "file": "安卓需在manifest中添加网络访问权限.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todomvc实现笔记.md",
+                "file": "安卓需在manifest中添加网络访问权限.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,7 @@
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "安卓需在manifest中添加网络访问权限.md",
     "todomvc实现笔记.md",
     "javascript的扩展语句-省略号.md",
     "java中Calendar类常用方法.md",
@@ -147,7 +148,6 @@
     "安卓/kotlin中多线程编程.md",
     "安卓的canvas.md",
     "回调函数.md",
-    "安卓/SetContentView 和 LayoutInflater异同.md",
-    "安卓/Android Studio中match_parent和wrap_content的区别.md"
+    "安卓/SetContentView 和 LayoutInflater异同.md"
   ]
 }
