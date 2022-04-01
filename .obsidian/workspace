@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kotlin 懒启动lazy.md",
+            "file": "未命名.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin 懒启动lazy.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin 懒启动lazy.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin 懒启动lazy.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,7 @@
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "未命名.md",
     "Kotlin 懒启动lazy.md",
     "作业-翻译app.md",
     "javascript的扩展语句-省略号.md",
@@ -147,7 +148,6 @@
     "设计模式-MVC模式.md",
     "原生开发,h5开发,混合开发.md",
     "react使用hooks的话不需要bind.md",
-    "todomvc实现笔记.md",
-    "React的class.md"
+    "todomvc实现笔记.md"
   ]
 }
