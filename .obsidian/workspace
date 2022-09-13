@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nodejs的事件触发器.md",
+            "file": "算法/笔记.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nodejs的事件触发器.md",
+                "file": "算法/笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nodejs的事件触发器.md"
+                "file": "算法/笔记.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nodejs的事件触发器.md",
+                "file": "算法/笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,10 +135,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "352385c8a4b9ad59",
   "lastOpenFiles": [
+    "算法/笔记.md",
     "nodejs的事件触发器.md",
     "Kotlin 懒启动lazy.md",
     "作业-翻译app.md",
@@ -147,7 +149,6 @@
     "设计模式-Builder建造者模式.md",
     "设计模式-MVC模式.md",
     "原生开发,h5开发,混合开发.md",
-    "react使用hooks的话不需要bind.md",
-    "todomvc实现笔记.md"
+    "react使用hooks的话不需要bind.md"
   ]
 }
