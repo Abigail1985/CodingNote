@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "352385c8a4b9ad59",
+        "id": "73a7b0d91ffa3dca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/笔记.md",
+            "file": "Todomvc.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/笔记.md",
+                "file": "Todomvc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/笔记.md"
+                "file": "Todomvc.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/笔记.md",
+                "file": "Todomvc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,24 +131,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "352385c8a4b9ad59",
+  "active": "73a7b0d91ffa3dca",
   "lastOpenFiles": [
-    "算法/笔记.md",
+    "todomvc实现笔记.md",
+    "Todomvc.md",
+    "前端/前端用到的算法.md",
+    "前端/22 春 字节前端 第 4 课：Todo MVC 示例.pdf",
+    "移动开发.md",
     "nodejs的事件触发器.md",
-    "Kotlin 懒启动lazy.md",
-    "作业-翻译app.md",
-    "javascript的扩展语句-省略号.md",
-    "响应式布局-CSS媒体查询.md",
-    "设计模式-Builder建造者模式.md",
-    "设计模式-MVC模式.md",
-    "原生开发,h5开发,混合开发.md",
-    "react使用hooks的话不需要bind.md"
+    "react使用hooks的话不需要bind.md",
+    "nodejs的cluster.md",
+    "算法/笔记.md",
+    "Kotlin 懒启动lazy.md"
   ]
 }
