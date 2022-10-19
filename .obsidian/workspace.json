@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "29e1103a769791ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "149efaa351d55223",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73a7b0d91ffa3dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "块存储，文件存储，对象存储.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a1dc2bcf996ed77",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "551160860fc6b41b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b4e220c2a0de1e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76f23e76b2aae190",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b6f1105f22950010",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de8bb8fe555851d8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5
+  },
+  "right": {
+    "id": "0394e70f62e0ddb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6c9704b31317b36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28393a772172078b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "块存储，文件存储，对象存储.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "a2ac9681491d5f2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b143fa9b1e470f1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "块存储，文件存储，对象存储.md"
+              }
+            }
+          },
+          {
+            "id": "fbd6187075391562",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "块存储，文件存储，对象存储.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "abd8b16820c4dca0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "5a1dc2bcf996ed77",
+  "lastOpenFiles": [
+    "iaas paas saas区别.md",
+    "块存储，文件存储，对象存储.md",
+    "安卓/jar文件是什么.md",
+    "安卓/安卓的context类.md",
+    "安卓/安卓需在manifest中添加网络访问权限.md",
+    "安卓/kotlin中多线程编程.md",
+    "安卓/作业-重复请求缓存功能.md",
+    "安卓/为什么 fragment要包装成事务.md",
+    "工具/Devonthink+Obsidian管理知识体系.md",
+    "工具/半角和全角符号.md"
+  ]
+}
