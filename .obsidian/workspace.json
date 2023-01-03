@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LC_ALL=C在做什么.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LC_ALL=C在做什么.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LC_ALL=C在做什么.md"
+                "file": "云开发/OpenStack and Ansible.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LC_ALL=C在做什么.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -153,6 +153,7 @@
   },
   "active": "9225e6837c1fd5f4",
   "lastOpenFiles": [
+    "云开发/LC_ALL=C在做什么.md",
     "云开发/OpenStack and Ansible.md",
     "云开发/任务.md",
     "Cpp/静态函数.md",
@@ -161,7 +162,6 @@
     "前端/HTML网页localstorage使用.md",
     "块存储，文件存储，对象存储.md",
     "iaas paas saas区别.md",
-    "安卓/jar文件是什么.md",
-    "安卓/安卓的context类.md"
+    "安卓/jar文件是什么.md"
   ]
 }

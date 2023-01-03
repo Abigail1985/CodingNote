@@ -224,10 +224,11 @@ Install the Mongo Shell on your local VM according the same tutorial: https://do
 
 You will now use the mongo shell to test your installation. The MongoDB server is running on your OpenStack server. You will start the mongo shell on your local machine.
 
+- [ ] 连接mongo数据库
 Execute the following shell command on your local machine.
 
 ```
-> mongo --port 27017 --host 10.37.ab.cd
+> mongosh --port 27017 --host 10.37.0.96
 ```
 
 Does it work ? Normally, you should encounter some connection problems: "Failed to connect to …".
@@ -250,12 +251,17 @@ Execute the following Mongo commands on your local machine from the Mongo shell.
 > db.photographers.insert( charlie )
 ```
 
-As you may have guessed, `use photos` creates a database named `photos`. `db` refers to the current database and using `db.photographers` creates a collection named `photographers` in the `photos` database. To list all the documents in the `photographers` collection you may execute the following command:
+As you may have guessed, `use photos` creates a database named `photos`. `db` refers to the current database and using `db.photographers` creates a collection named `photographers` in the `photos` database. 
+
+- mongo数据库查找
+To list all the documents in the `photographers` collection you may execute the following command:
 
 ```
 > db.photographers.find()
 ```
 
+
+- mongo数据库精确查找
 To view only the photographers who are interested by street photography, you may execute the following command:
 
 ```
@@ -264,6 +270,7 @@ To view only the photographers who are interested by street photography, you may
 
 ### 3.5 Debugging MongoDB problems
 
+- [ ] 检查mongo数据库是否在运行
 Sometimes, not everything works on the very first try … If you encounter problems with MongoDB, you can ssh into the server and use the following command to find out if the server process is running or not:
 
 ```
@@ -279,6 +286,8 @@ Most server programs in Linux (and Unix in general) write messages to log files 
 
 
 Ansible ([http://ansible.com](http://ansible.com/)) is an automation tool that allows to install and configure remote systems and apps (it can do even more but we will mainly use it for this function). The following figure (borrowed from [https://sysadmincasts.com](https://sysadmincasts.com/)) illustrates the way Ansible works. From a management node, on which Ansible is installed, remote systems are configured and applications are installed and configured. The Ansible management node connects to each managed node thanks to SSH. As illustrated by the figure, the management node uses an inventory file and a playbook file. The inventory file, as its name suggests, contains a list of the managed nodes (DNS name and/or IP addresses). Ansible Playbooks contain the list of tasks to be executed on the managed nodes.
+
+
 
 ![ansible.png](http://www.cloud.rennes.enst-bretagne.fr/ansible.png)
 
@@ -315,6 +324,7 @@ You have executed your first ansible command and you have used an inventory file
 
 There is only one task in this playbook. Its name is `user`. It is used to add a user account to a computer (server), or more precisely, to ensure that a user account is present (or absent) in a system. The `hosts: all` line means that we want to apply the tasks to all the hosts in the inventory file.
 
+- [ ] ansible下载并运行自动化脚本
 From your local VM, download the playbook file from the following address: http://www.cloud.rennes.enst-bretagne.fr/files/openstack-lab/user-playbook.yml
 
 Execute the ansible playbook using the following command.
@@ -325,9 +335,13 @@ Execute the ansible playbook using the following command.
 
 The first time you execute the playbook, the `bob` user account is added on the OpenStack server. If you execute the playbook once more, ansible will note that the `bob` user account is present and will do nothing.
 
+>首次执行剧本时，`bob`用户帐户将添加到OpenStack服务器上。如果您再次执行剧本，ansible会注意到`bob`用户帐户存在，不会做任何事情
+
 ## 5 Deleting your Network and your VM
 
 Execute the following OpenStack commands to delete the server, the router and the network. As you can use only a limited amount of resources in OpenStack, it is important to delete these elements in order to release the resources that they are using.
+
+>执行以下OpenStack命令来删除服务器、路由器和网络。由于您在OpenStack中只能使用数量有限的资源，因此删除这些元素以释放它们正在使用的资源很重要。
 
 ```
 (openstack) floating ip delete ...
@@ -343,6 +357,7 @@ Execute the following OpenStack commands to delete the server, the router and th
 
 As stated in the OpenStack documentation (https://docs.openstack.org/heat/rocky/), /"Heat is a service to orchestrate composite cloud applications using a declarative template format through an OpenStack-native REST API"/. What does it mean? Instead of executing multiple OpenStack Shell commands to provision your resources (remember what you have done to get a Server reachable from your local VM), you will describe all the OpenStack resources you need in YAML files (called heat templates) and you will use a `stack create` command to provision your infrastructure. 
 
+- [ ] 下载三个HEAT模版
 Download the following three files:
 
 - http://www.cloud.rennes.enst-bretagne.fr/files/openstack-lab/mongo-bastion-stack.yml
@@ -351,12 +366,24 @@ Download the following three files:
 
 The first file is the "main file" that defines all the resources that we want OpenStack to create. In order to minimize "copy and paste" operations, the second file (`vm-template.yaml`) contains a parametrized sub-template that creates a single VM. Note that the extension of this file **must be `.yaml` and not `.yml`**, otherwise it does not work. The third file (`vm-keys.yml`) contains a list of public keys that will be injected in each VM. This way, the owners of the corresponding private keys will be able to connect to the VMs. This way the teaching staff will be able to connect to your VMs. Note that, in real life, you must be extremely careful about accepting public keys and injecting them in a VM as this operation gives complete access to your VMs.
 
+
+> [!NOTE] 三个HEAT模版
+> 第一个文件是“主文件”，它定义了我们希望OpenStack创建的所有资源。为了最大限度地减少“复制和粘贴”操作，
+> 
+> 第二个文件（`vm-template.yaml`）包含一个参数化的子模板，可以创建单个虚拟机。请注意，此文件的扩展名**必须是`.yaml`而不是`.yml`**，否则它不起作用。
+> 
+> 第三个文件（`vm-keys.yml`）包含将在每个虚拟机中注入的公钥列表。这样，相应私钥的所有者将能够连接到虚拟机。这样，教学人员将能够连接到您的虚拟机。
+> 
+> 请注意，在现实生活中，您必须非常小心地接受公钥并将其注入虚拟机，因为此操作可以完全访问您的虚拟机。
+
+- [ ] 将您的公钥添加到`vm-keys.yml`
 Execute the following bash command (copy/paste it) to add your public key to `vm-keys.yml` (you **must** be in the directory where the `vm-keys.yml`is located **before** executing this command).
 
 ```
 { (echo -n "    - " && cat ~/.ssh/osvm.pub) > /tmp/o; (mv vm-keys.yml /tmp/k); (cat /tmp/k /tmp/o > vm-keys.yml) }
 ```
 
+- [ ] 添加同伴的公钥到osvm2.pub文件⏫ 
 At this point, the public keys of the teachers and of the one of you who executes the steps are in the `vm-keys.yml` file. It therefore remains to add the public key of your colleague, who is part of your pair.
 
 Make sure you retrieve your colleague's public key and copy it into an `osvm2.pub` file and execute the following command.
@@ -369,16 +396,18 @@ Like the Python programming language, YAML relies on indentation to delimit code
 
 The provided template is **incomplete** but it is functional. As explained in the `description` key (see the first lines), this template is supposed to provision two servers: one for a Mongo server and one for a Bastion server. The idea is to use the Bastion server to install and to configure the MongoDB server. The Bastion server will be accessible from the outside on port 22 (for ssh). You will complete this template to achieve this goal. For the moment, let's try to provision the resources described by the template or - in other words - to create the stack described by the YAML file.
 
+- [ ] 使用热模版创建stack
 Execute the following openstack command to create the stack.
 
 ```
-> openstack stack create -t mongo-bastion--stack.yml -e vm-keys.yml singlemongo
+> openstack stack create -t mongo-bastion-stack.yml -e vm-keys.yml singlemongo
 ```
 
 Use the dashboard to display the resources of your stack.
 
 If you select the `Resources` tab of your `singlemongo` stack, you should see that nine resources have been created.
 
+- [ ] 删除stack——怎么删？？
 Delete your stack.
 
 ### 6.1 Modify and Execute a Stack
