@@ -179,7 +179,7 @@ Execute the following shell command to set the language to the default language
 ```
 > export LC_ALL=C
 ```
-
+[[LC_ALL=C在做什么]]
 
 - [ ] 更新可用软件包的列表并安装更新
 Execute the two following shell commands to update the list of available packages and to install the newer versions of theses packages. Be patient … upgrading the system takes a while.
