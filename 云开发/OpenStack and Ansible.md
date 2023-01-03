@@ -26,6 +26,14 @@ The next steps will only have to be executed by one of the two members of your p
 
 A security group is a set of IP filter rules that define which packets are allowed to pass and which are not. When instanciating a virtual machine, one has to choose the security group that will filter the traffic to this virtual machine. Here, you will create a new security group, called `MYSECGRP` and you will add two rules to authorize SSH and ICMP (ping) traffic to the (future) instance. An alternative would be to use the `default` security group and to add rules to it.
 
+> [!NOTE] 安全组是什么
+> 安全组是一组IP过滤器规则，定义哪些数据包被允许传递，哪些不允许传递。
+> 在实例化虚拟机时，必须选择将过滤此虚拟机流量的安全组。
+> 在这里，您将创建一个名为`MYSECGRP`的新安全组，并将添加两条规则，以授权SSH和ICMP（ping）流量进入（未来）实例。
+> 另一种选择是使用`default`安全组并向其添加规则。
+
+
+- [ ] 创建安全组
 Create a security group and its associated rules using the following OpenStack commands:
 
 ```
