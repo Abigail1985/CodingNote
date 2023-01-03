@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1b84f6caf384cad",
+            "id": "9225e6837c1fd5f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/HTML网页localstorage使用.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,43 +21,19 @@
             }
           },
           {
-            "id": "a241402dc2ff03a4",
+            "id": "52a374964b6dfcd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gRPC stub是什么 cs模型中的client.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1af17f61eaf7c917",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
-          },
-          {
-            "id": "11cfe3941828ae4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机网络考试/大纲.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 200
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机网络考试/大纲.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机网络考试/大纲.md"
+                "file": "云开发/OpenStack and Ansible.md"
               }
             }
           },
@@ -161,18 +137,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机网络考试/大纲.md",
+                "file": "云开发/OpenStack and Ansible.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
-            }
-          },
-          {
-            "id": "abd8b16820c4dca0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ],
@@ -180,19 +148,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5,
+    "collapsed": true
   },
-  "active": "11cfe3941828ae4d",
+  "active": "9225e6837c1fd5f4",
   "lastOpenFiles": [
-    "期末.assets/IMG_1238.PNG.md",
+    "云开发/任务.md",
+    "云开发/OpenStack and Ansible.md",
+    "Cpp/静态函数.md",
     "计算机网络考试/大纲.md",
+    "期末.assets/IMG_1238.PNG.md",
     "前端/HTML网页localstorage使用.md",
     "块存储，文件存储，对象存储.md",
     "iaas paas saas区别.md",
     "安卓/jar文件是什么.md",
-    "安卓/安卓的context类.md",
-    "安卓/安卓需在manifest中添加网络访问权限.md",
-    "安卓/kotlin中多线程编程.md",
-    "安卓/作业-重复请求缓存功能.md"
+    "安卓/安卓的context类.md"
   ]
 }
