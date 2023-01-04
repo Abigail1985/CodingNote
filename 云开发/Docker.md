@@ -185,7 +185,16 @@ On your local VM, create a directory named `mywebserver` and from this directory
 
 Your `mywebserver` directory should now contain the three following files: `file1.html`, `file2.html` and `file3.html`.
 
-Find a way to 1) remove the `tmp` directory (inside the **container**) 2) add the three downloaded files to your running HTTP server (inside the **container**) without stopping/restarting it. Use `curl` on your local VM to make sure that you have achieved this goal.
+Find a way to 
+1) remove the `tmp` directory (inside the **container**) 
+2) add the three downloaded files to your running HTTP server (inside the **container**) without stopping/restarting it. Use `curl` on your local VM to make sure that you have achieved this goal.
+
+
+
+> [!NOTE] docker用法
+>`docker exec - it NAME bash`可以进入容器的终端
+>[Docker文件目录和容器内部操作 - Merray - 博客园](https://www.cnblogs.com/merray/p/12849770.html)
+
 
 ## 6 Building Your Own Images
 
