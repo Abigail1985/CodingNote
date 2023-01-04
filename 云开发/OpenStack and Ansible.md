@@ -33,7 +33,7 @@ A security group is a set of IP filter rules that define which packets are allow
 > 另一种选择是使用`default`安全组并向其添加规则。
 
 
-- [ ] 创建安全组
+- [x] 创建安全组 ✅ 2023-01-04
 Create a security group and its associated rules using the following OpenStack commands:
 
 ```
@@ -53,7 +53,7 @@ The network topology that you will create is illustrated by the following figure
 
 You may see the `external` network. Additionnaly, there is the `MYNET` network and its associated subnet (192.168.2.0/24) that you will also create soon in your OpenStack project. A router (called `MYROUTER`) interconnects the `external` network and the `mynet` network. A instance of a virtual machine (called `MYSERVER`) is attached to the 192.168.2.0/24 subnet. Once again, do not pay attention to the `common` network. You will not use it.
 
-- [ ] 创建网络和虚拟子网
+- [x] 创建网络和虚拟子网 ✅ 2023-01-04
 - Create a network and its associated subnet using the following OpenStack commands:
 
 ```
@@ -62,12 +62,12 @@ You may see the `external` network. Additionnaly, there is the `MYNET` network a
 4 --dns-nameserver 192.44.75.10
 ```
 
-- [ ] 显示网络拓扑
+- [x] 显示网络拓扑 ✅ 2023-01-04
 - Use the dashboard to display your network topology.
 
 Once the private network and subnets have been created, it is time to create the router, to set its external gateway and to link it to your private network.
 
-- [ ] 创建路由器并配置
+- [x] 创建路由器并配置 ✅ 2023-01-04
 - Create a router and configure it using the following OpenStack commands:
 
 ```
@@ -80,7 +80,7 @@ Once the private network and subnets have been created, it is time to create the
 
 Congratulations! You have just configured your first private network and you are now ready to create an instance of a virtual machine (called a Server in the OpenStack vocabulary) and make it reachable from your local machine. 
 
-- [ ] 选择服务器的flavor
+- [x] 选择服务器的flavor ✅ 2023-01-04
 
 When creating a Server, one has to choose the flavor, i.e., a set of values for the Virtual CPUs (vCPUs), memory and disk, as well as the image that will be used to boot the virtual machine.
 
@@ -100,7 +100,7 @@ At the time of writing this text, nine flavors are available: from `m1.nano` (ta
 > 首先，**您将使用`s10.small`口味**，这足以在Ubuntu上运行MongoDB测试服务器。
 
 
-- [ ] 选择可用的镜像
+- [x] 选择可用的镜像 ✅ 2023-01-04
 To display the list of available images, execute the following OpenStack command:
 
 ```
@@ -113,7 +113,7 @@ At the time of writing this text, one image is available. You will use the `ubun
 > 您将使用**`ubuntu20`**映像启动操作系统。
 
 
-- [ ] 创建openstack服务器，自己在文档里搜索怎么办
+- [x] 创建openstack服务器，自己在文档里搜索怎么办 ✅ 2023-01-04
 Create a server using the appropriate OpenStack command. 
 
 **Hint**: Search in the OpenStack documentation how to create a server. Please, do not forget to use the `MYSECGRP` security group and the `mykey` keypair. You will use `MYSERVER` as an OpenStack name for your server.
@@ -126,7 +126,7 @@ If you have successfully created your server, you are almost done. Your virtual 
 >- 使用`MYSECGRP`安全组和`mykey`密钥对。
 >- 您将使用`MYSERVER`作为服务器的OpenStack名称
 
-- [ ] 创建floating IP
+- [x] 创建floating IP ✅ 2023-01-04
 Create a floating IP using the following OpenStack command: 
 
 ```
@@ -135,7 +135,7 @@ Create a floating IP using the following OpenStack command:
 
 A floating IP has been allocated to your OpenStack project on the external network. Now, you need to associate it to your virtual machine.
 
-- [ ] 关联floating IP和服务器
+- [x] 关联floating IP和服务器 ✅ 2023-01-04
 Associate the allocated floating IP to your instance using the following OpenStack command: 
 
 ```
@@ -148,14 +148,14 @@ Associate the allocated floating IP to your instance using the following OpenSta
 
 You should be able to **establish an SSH connection to your OpenStack server from your local machine**. Recall that when you have created your server, you have injected the keypair `mykey` (well, you were supposed to do that). It means that to SSH your server, you must provide the name of the local file containing the private key (its name should be `~/.ssh/osvm`).
 
-- [ ] 为托管私钥的文件设置适当的 unix 权限，否则 ssh 会报错
+- [x] 为托管私钥的文件设置适当的 unix 权限，否则 ssh 会报错 ✅ 2023-01-04
 Please, set the appropriate unix rights to the file hosting the private key or ssh will complain about that.
 
 ```
 > chmod 700 ~/.ssh/osvm
 ```
 
-- [ ] 从本地计算机ssh到Openstack服务器
+- [x] 从本地计算机ssh到Openstack服务器 ✅ 2023-01-04
 SSH to your server using the following Shell command.
 
 ```
@@ -170,10 +170,10 @@ SSH to your server using the following Shell command.
 
 Your OpenStack server does not have a full access to the Internet (for security reasons). Don't panic. 1) You may access some essential services 2) An APT server proxy has been deployed on a host that you can access from your server. In the following, it is assumed that you have ssh'ed into your server.
 
-- [ ] 将主机名（`MYSERVER`）添加到`/etc/hosts`文件中的127.0.0.1行中（不要忘记使用`sudo`来修改此文件）
+- [x] 将主机名（`MYSERVER`）添加到`/etc/hosts`文件中的127.0.0.1行中（不要忘记使用`sudo`来修改此文件） ✅ 2023-01-04
 Add the hostname (`MYSERVER`) to the 127.0.0.1 line in the `/etc/hosts` file (do not forget to use `sudo` to be allowed to modify this file).
 
-- [ ] 将语言设置为默认语言
+- [x] 将语言设置为默认语言 ✅ 2023-01-04
 Execute the following shell command to set the language to the default language
 
 ```
@@ -181,7 +181,7 @@ Execute the following shell command to set the language to the default language
 ```
 [[LC_ALL=C在做什么]]
 
-- [ ] 更新可用软件包的列表并安装更新
+- [x] 更新可用软件包的列表并安装更新 ✅ 2023-01-04
 Execute the two following shell commands to update the list of available packages and to install the newer versions of theses packages. Be patient … upgrading the system takes a while.
 
 ```
@@ -195,10 +195,10 @@ Execute the two following shell commands to update the list of available package
 
 You will now install the MongoDB database on your OpenStack server. You **must** ssh to your server to execute the installation steps.
 
-- [ ] 在Openstack服务器安装MongoDB
+- [x] 在Openstack服务器安装MongoDB ✅ 2023-01-04
 Install MongoDB on your server by following the official tutorial: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
-- [ ] 配置MongoDB保证外部访问
+- [x] 配置MongoDB保证外部访问 ✅ 2023-01-04
 You must additionnaly change a configuration parameter to make your MongoDB server reachable from any machine on the Internet (including your local machine).
 
 
@@ -213,7 +213,7 @@ Modify the line starting with `bindIp` in the `/etc/mongod.conf` file. Replace t
 
 ### 3.2 Install of Mongo Shell on your local VM
 
-- [ ] 在本地虚拟机上安装Mongo Shell
+- [x] 在本地虚拟机上安装Mongo Shell ✅ 2023-01-04
 Install the Mongo Shell on your local VM according the same tutorial: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/. Just replace mongodb-org by mongodb-org-shell when executing the `apt install` command.
 
 > [!NOTE] MongoShell安装
@@ -224,7 +224,7 @@ Install the Mongo Shell on your local VM according the same tutorial: https://do
 
 You will now use the mongo shell to test your installation. The MongoDB server is running on your OpenStack server. You will start the mongo shell on your local machine.
 
-- [ ] 连接mongo数据库
+- [x] 连接mongo数据库 ✅ 2023-01-04
 Execute the following shell command on your local machine.
 
 ```
@@ -270,7 +270,7 @@ To view only the photographers who are interested by street photography, you may
 
 ### 3.5 Debugging MongoDB problems
 
-- [ ] 检查mongo数据库是否在运行
+- [x] 检查mongo数据库是否在运行 ✅ 2023-01-04
 Sometimes, not everything works on the very first try … If you encounter problems with MongoDB, you can ssh into the server and use the following command to find out if the server process is running or not:
 
 ```
@@ -324,7 +324,7 @@ You have executed your first ansible command and you have used an inventory file
 
 There is only one task in this playbook. Its name is `user`. It is used to add a user account to a computer (server), or more precisely, to ensure that a user account is present (or absent) in a system. The `hosts: all` line means that we want to apply the tasks to all the hosts in the inventory file.
 
-- [ ] ansible下载并运行自动化脚本
+- [x] ansible下载并运行自动化脚本 ✅ 2023-01-04
 From your local VM, download the playbook file from the following address: http://www.cloud.rennes.enst-bretagne.fr/files/openstack-lab/user-playbook.yml
 
 Execute the ansible playbook using the following command.
@@ -357,7 +357,7 @@ Execute the following OpenStack commands to delete the server, the router and th
 
 As stated in the OpenStack documentation (https://docs.openstack.org/heat/rocky/), /"Heat is a service to orchestrate composite cloud applications using a declarative template format through an OpenStack-native REST API"/. What does it mean? Instead of executing multiple OpenStack Shell commands to provision your resources (remember what you have done to get a Server reachable from your local VM), you will describe all the OpenStack resources you need in YAML files (called heat templates) and you will use a `stack create` command to provision your infrastructure. 
 
-- [ ] 下载三个HEAT模版
+- [x] 下载三个HEAT模版 ✅ 2023-01-04
 Download the following three files:
 
 - http://www.cloud.rennes.enst-bretagne.fr/files/openstack-lab/mongo-bastion-stack.yml
@@ -376,14 +376,14 @@ The first file is the "main file" that defines all the resources that we want Op
 > 
 > 请注意，在现实生活中，您必须非常小心地接受公钥并将其注入虚拟机，因为此操作可以完全访问您的虚拟机。
 
-- [ ] 将您的公钥添加到`vm-keys.yml`
+- [x] 将您的公钥添加到`vm-keys.yml` ✅ 2023-01-04
 Execute the following bash command (copy/paste it) to add your public key to `vm-keys.yml` (you **must** be in the directory where the `vm-keys.yml`is located **before** executing this command).
 
 ```
 { (echo -n "    - " && cat ~/.ssh/osvm.pub) > /tmp/o; (mv vm-keys.yml /tmp/k); (cat /tmp/k /tmp/o > vm-keys.yml) }
 ```
 
-- [ ] 添加同伴的公钥到osvm2.pub文件⏫ 
+- [ ] 添加同伴的公钥到osvm2.pub文件 ⏫
 At this point, the public keys of the teachers and of the one of you who executes the steps are in the `vm-keys.yml` file. It therefore remains to add the public key of your colleague, who is part of your pair.
 
 Make sure you retrieve your colleague's public key and copy it into an `osvm2.pub` file and execute the following command.
@@ -396,7 +396,7 @@ Like the Python programming language, YAML relies on indentation to delimit code
 
 The provided template is **incomplete** but it is functional. As explained in the `description` key (see the first lines), this template is supposed to provision two servers: one for a Mongo server and one for a Bastion server. The idea is to use the Bastion server to install and to configure the MongoDB server. The Bastion server will be accessible from the outside on port 22 (for ssh). You will complete this template to achieve this goal. For the moment, let's try to provision the resources described by the template or - in other words - to create the stack described by the YAML file.
 
-- [ ] 使用热模版创建stack
+- [x] 使用热模版创建stack ✅ 2023-01-04
 Execute the following openstack command to create the stack.
 
 ```
@@ -407,7 +407,7 @@ Use the dashboard to display the resources of your stack.
 
 If you select the `Resources` tab of your `singlemongo` stack, you should see that nine resources have been created.
 
-- [ ] 删除stack——怎么删？？
+- [x] 删除stack——怎么删？？ ✅ 2023-01-04
 Delete your stack.
 
 ### 6.1 Modify and Execute a Stack
