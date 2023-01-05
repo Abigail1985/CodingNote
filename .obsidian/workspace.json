@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "573d258fee644c0d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +149,18 @@
     "width": 259.5,
     "collapsed": true
   },
-  "active": "9225e6837c1fd5f4",
+  "left-ribbon": {
+    "hiddenItems": {
+      "DEVONlink-obsidian:DEVONlink": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "573d258fee644c0d",
   "lastOpenFiles": [
     "云开发/OpenStack and Ansible.md",
     "云开发/Docker.md",
