@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6b4207bb1cf8453",
+            "id": "7c1b379cf2e0c2f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python的async和await.md",
+                "file": "云开发/Lab/Developing and Testing a Microservice.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,33 @@
             }
           },
           {
-            "id": "c090af6f3e13d123",
+            "id": "ffe18f1f0b87183f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f944287dd506b959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/nodejs的cluster.md",
+                "file": "云开发/Lab/OpenStack and Ansible.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73ac6a3a1ac75e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/python函数修饰器@.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,8 +121,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/nodejs的cluster.md",
-                "collapseAll": false,
+                "file": "云开发/python函数修饰器@.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -128,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/nodejs的cluster.md"
+                "file": "云开发/python函数修饰器@.md"
               }
             }
           },
@@ -138,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/nodejs的cluster.md",
+                "file": "云开发/python函数修饰器@.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -149,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,17 +183,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c090af6f3e13d123",
+  "active": "73ac6a3a1ac75e0a",
   "lastOpenFiles": [
-    "iaas paas saas区别.md",
-    "python的async和await.md",
+    "云开发/Lab/OpenStack and Ansible.md",
+    "云开发/Lab/gRPC和REST.md",
+    "云开发/Lab/Openstack.md",
+    "云开发/Lab/K8S.md",
+    "云开发/Lab/Developing and Testing a Microservice.md",
+    "云开发/Lab/Docker.md",
+    "云开发/python的async和await.md",
+    "云开发/任务.md",
     "云开发/beanie用法.md",
-    "旅行计划/旅行计划.md",
-    "前端/js 的 async和 await.md",
-    "设计模式/设计模式-MVC模式.md",
-    "设计模式/设计模式-Builder建造者模式.md",
-    "算法/笔记.md",
-    "images/Pasted image 20220320135412.png",
-    "images/Pasted image 20220318170221.png"
+    "云开发/gRPC stub是什么 cs模型中的client.md"
   ]
 }

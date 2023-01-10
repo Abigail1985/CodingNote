@@ -1,5 +1,3 @@
-# Docker
-
 
 ## 1 Introduction
 

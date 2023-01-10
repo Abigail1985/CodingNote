@@ -1,6 +1,5 @@
 
 
-
 ## 1 Introduction
 
 OpenStack is an IaaS (Infrastructure as a Service) cloud computing platform. One can use it to create virtual machines, allocate block storage ressources, create virtual networks and so on. Emmanuel Braux, from DISI, has installed an instance of OpenStack (thanks Emmanuel!) on a set of physical nodes, located on the campus in Brest. Starting tomorrow, and throughout this module, you will use the resources provided by this IMT Atlantique instance of OpenStack. Today, you will use another OpenStack platform installed by the teaching staff. You will pay close attention to the information given on the board by the teachers regarding these two platforms.
