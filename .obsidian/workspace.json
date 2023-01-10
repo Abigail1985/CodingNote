@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9225e6837c1fd5f4",
+            "id": "b6b4207bb1cf8453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Docker.md",
+                "file": "python的async和await.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "573d258fee644c0d",
+            "id": "c090af6f3e13d123",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "旅行计划/旅行计划.md",
+                "file": "前端/nodejs的cluster.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "旅行计划/旅行计划.md",
+                "file": "前端/nodejs的cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "旅行计划/旅行计划.md"
+                "file": "前端/nodejs的cluster.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "旅行计划/旅行计划.md",
+                "file": "前端/nodejs的cluster.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -163,17 +163,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "573d258fee644c0d",
+  "active": "c090af6f3e13d123",
   "lastOpenFiles": [
-    "云开发/Docker.md",
-    "云开发/任务.md",
+    "iaas paas saas区别.md",
+    "python的async和await.md",
+    "云开发/beanie用法.md",
     "旅行计划/旅行计划.md",
-    "云开发/OpenStack and Ansible.md",
-    "云开发/LC_ALL=C在做什么.md",
-    "Cpp/静态函数.md",
-    "计算机网络考试/大纲.md",
-    "期末.assets/IMG_1238.PNG.md",
-    "前端/HTML网页localstorage使用.md",
-    "块存储，文件存储，对象存储.md"
+    "前端/js 的 async和 await.md",
+    "设计模式/设计模式-MVC模式.md",
+    "设计模式/设计模式-Builder建造者模式.md",
+    "算法/笔记.md",
+    "images/Pasted image 20220320135412.png",
+    "images/Pasted image 20220318170221.png"
   ]
 }
