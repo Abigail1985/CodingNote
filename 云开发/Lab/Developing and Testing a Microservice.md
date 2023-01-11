@@ -85,6 +85,9 @@ Go to the `app/photographer-service` directory and then, build the docker image 
 > docker run -p 8000:80 --env MONGO_HOST=mongo_ip --name photographer-service photographer
 ```
 
+
+如何查看容器的IP地址：[[Docker#3.2 Docker Inspect and Docker Logs]]
+
 The `--env MONGO_HOST` option is used to give the IP of the mongo service (running in a container) to the `photographer` service. The `-p 8000:80` option is to publish the container port 80 to port 8000 on the docker host (your local VM). Note that if you don't give the IP of your Mongo container in the `docker run` command, the `photographer` service will try to connect to a Mongo service whose IP is specified in the Dockerfile. This may be the right one… or not.
 
 Start a Web navigator and type the following address http://127.0.0.1:8000/docs in the address bar. Experiment some of the endpoints of the `photographer` service API exposed by the Swagger graphical interface.
@@ -94,7 +97,12 @@ Start a Web navigator and type the following address http://127.0.0.1:8000/docs 
 [[pytest的一些配置文件]]
 [[pytest.usefixtures用法]]
 
-You are going to use the **pytest** framework to the test the `photographer` service. The test functions are in the `test_photographer.py` file. Fixtures are in the `conftest.py` file. Fixtures set up and release resources before and after the execution of tests. For example, the `initDB` fixture is executed to establish a connection to the database before executing a test function. The `clearPhotographers` fixture is also executed before running every test function; here, the author of the tests choose to delete all documents from the collection before running a test.
+You are going to use the **pytest** framework to the test the `photographer` service. The test functions are in the `test_photographer.py` file. 
+
+Fixtures are in the `conftest.py` file. **Fixtures set up and release resources before and after the execution of tests.** 
+
+For example, the `initDB` fixture is executed to establish a connection to the database before executing a test function. 
+The `clearPhotographers` fixture is also executed before running every test function; here, the author of the tests choose to delete all documents from the collection before running a test.
 
 The test functions for the `Photographer` service rely on a Mongo Database. Consequently, before running the tests, a Mongo database must be started. In the following, we use a docker container to start a Mongo instance.
 
@@ -109,7 +117,7 @@ You will now build a docker image to execute the tests for the `Photographer` se
 ```
 FROM python:3.9
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install --no-cache-dir --trusted-host pypi.python.org pytest pytest_asyncio beanie httpx fastapi[all] Pillow protobuf grpcio grpcio-tools
+RUN pip3 install --no-cache-dir --trusted-host pypi.python.org pytest pytest_asyncio beanie httpx fastapi[all] Pillow protobuf grpcio grpcio-tools requests
 ```
 
 As you may have noticed, there is nothing specific to the `Photographer` service in this Dockerfile. Only python packages required for running tests for a service relying on the `fastapi` and `beanie` frameworks are installed in the docker image. You will tag the image with a generic name and you will use this image to test all your microservices.
