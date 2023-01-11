@@ -1,5 +1,3 @@
-# Discovering gRPC and FastAPI
-
 
 ## 1 Introduction
 

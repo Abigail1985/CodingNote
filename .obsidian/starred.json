@@ -1,9 +1,3 @@
 {
-  "items": [
-    {
-      "type": "file",
-      "title": "OpenStack and Ansible",
-      "path": "云开发/Lab/OpenStack and Ansible.md"
-    }
-  ]
+  "items": []
 }
