@@ -60,7 +60,9 @@ The endpoints and the HTTP methods associated to these endpoints are the followi
 
 The `Photographer` service stores photographer attributes in a Mongo database. These attributes are: `display_name`, `first_name`, `last_name`, `interests`, `_id`. The `models.py` module defines the `Photographer` as a model class for storing the attributes of a photographer in a Mongo document. The `id` is not defined because we will let Mongo choose this identifier for us. Please, read the documentation for Beanie (the object modeling package that we are using) at the following address: https://roman-right.github.io/beanie/
 
-[[beanie用法]]
+
+[[用FastAPI、MongoDB和Beanie构建一个CRUD应用程序]]
+
 
 ### 3.4 Starting and Discovering the Service
 
@@ -201,7 +203,6 @@ message TagsReply {
 As you can see, this interface could hardly be simpler: only one procedure is defined: `getTags`. This procedure accepts as an input a message with the bytes of an image and returns another message with a sequence of strings, each string corresponding to a tag.
 
 This file is available at: http://www.cloud.rennes.enst-bretagne.fr/files/rest-lab/tags-service/tags.proto
-
 ### 4.2 Docker Image for Tags Service
 
 The Docker image containing the implementation of the `tags` service is available in the GitLab shared registry: `gitlab-devops.cloud.rennes.enst-bretagne.fr:4567/devops/shared/tags`

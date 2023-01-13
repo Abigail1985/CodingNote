@@ -23,7 +23,8 @@ print(f"消耗时间：{time.perf_counter() - start_time}")
 -   2，await 表示在这个地方等待子函数执行完成，再往下执行。（在并发操作中，把程序控制权教给主程序，让他分配其他协程执行。） await 只能在带有 async 关键字的函数中运行。
 -   3， asynico.run() 运行程序
 -   4， 这个程序消耗时间 2s 左右。
-
+- 
+[[MongoDB的访问-Motor用法#使用 async for 查询所有文档]]
   
 
 #python 

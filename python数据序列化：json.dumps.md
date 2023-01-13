@@ -1,0 +1,2 @@
+
+json的dumps方法和loads方法，可实现数据的序列化和反序列化。具体来说，dumps方法，可将json格式数据序列为Python的相关的数据类型；loads方法则是相反，把python数据类型转换为json相应的数据类型格式要求。在序列化时，中文汉字总是被转换为unicode码，在dumps函数中添加参数ensure_ascii=False即可解决。

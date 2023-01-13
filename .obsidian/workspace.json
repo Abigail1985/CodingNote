@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c1b379cf2e0c2f8",
+            "id": "66f392e2e009760a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Fastapi使用的框架.md",
+                "file": "云开发/python的async和await.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "cffa2b390a73aac2",
+            "id": "9830192f42d5be61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间件Middleware.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4297e81e4a6adc0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CROS跨域资源共享.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eeae552d0345d7e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fastapi的CROSMiddleware.md",
+                "file": "云开发/Lab/Developing and Testing a Microservice.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 252.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fastapi的CROSMiddleware.md",
+                "file": "云开发/Lab/Developing and Testing a Microservice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fastapi的CROSMiddleware.md"
+                "file": "云开发/Lab/Developing and Testing a Microservice.md"
               }
             }
           },
@@ -164,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fastapi的CROSMiddleware.md",
+                "file": "云开发/Lab/Developing and Testing a Microservice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -188,17 +162,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "eeae552d0345d7e8",
+  "active": "9830192f42d5be61",
   "lastOpenFiles": [
-    "CROS跨域资源共享.md",
-    "中间件Middleware.md",
-    "云开发/Fastapi使用的框架.md",
-    "云开发/pytest的一些配置文件.md",
-    "云开发/Lab/Discovering gRPC and FastAPI.md",
-    "云开发/Lab/Developing and Testing a Microservice.md",
-    "云开发/python的async和await.md",
-    "云开发/ASGI：异步服务器网关接口.md",
+    "云开发/Lab/Access the Microservices from a Frontend Web Application.md",
     "云开发/Lab/Docker.md",
-    "云开发/块存储，文件存储，对象存储.md"
+    "云开发/Lab/Developing and Testing a Microservice.md",
+    "云开发/用FastAPI、MongoDB和Beanie构建一个CRUD应用程序.md",
+    "云开发/pytest的一些配置文件.md",
+    "python数据序列化：json.dumps.md",
+    "httpx的AsyncClient.md",
+    "云开发/MongoDB的访问-Motor用法.md",
+    "云开发/python的async和await.md",
+    "云开发/Fastapi的Field和Body.md"
   ]
 }

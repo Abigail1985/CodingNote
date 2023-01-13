@@ -1,4 +1,12 @@
+
+[Beanie](https://link.juejin.cn/?target=https%3A%2F%2Froman-right.github.io%2Fbeanie%2F "https://roman-right.github.io/beanie/")是 MongoDB 的一个异步对象-文档映射器（ODM），它支持开箱即用的数据和模式迁移。它使用[Motor](https://link.juejin.cn/?target=https%3A%2F%2Fmotor.readthedocs.io%2F "https://motor.readthedocs.io/")，作为一个异步数据库引擎，以及[Pydantic](https://link.juejin.cn/?target=https%3A%2F%2Fpydantic-docs.helpmanual.io%2F "https://pydantic-docs.helpmanual.io/")。
+
+虽然你可以简单地使用Motor，但Beanie提供了一个额外的抽象层，使得与Mongo数据库内的集合进行交互变得更加容易。
+
+
+
 [Beanie](https://github.com/roman-right/beanie) - is an asynchronous Python object-document mapper (ODM) for MongoDB. Data models are based on [Pydantic](https://pydantic-docs.helpmanual.io/).
+
 [[Fastapi使用的框架#Pydantic]]
 
 When using Beanie each database collection has a corresponding `Document` that is used to interact with that collection. In addition to retrieving data, Beanie allows you to add, update, or delete documents from the collection as well.
