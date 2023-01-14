@@ -1,7 +1,4 @@
 
-# Kubernetes
-
-
 ## 1 Introduction
 
 According to its website: "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications." In other words, you can use Kubernetes to run applications comprised of one or more containers on a cluster of physical or virtual machines. Kubernetes takes care of starting and stopping containers on one (or more) of the nodes of the cluster.

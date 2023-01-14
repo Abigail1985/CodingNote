@@ -88,7 +88,7 @@ Go to the `app/photographer-service` directory and then, build the docker image 
 ```
 
 
-如何查看容器的IP地址：[[Docker#3.2 Docker Inspect and Docker Logs]]
+如何查看容器的IP地址：[[Docker查询容器的IP地址]]
 
 The `--env MONGO_HOST` option is used to give the IP of the mongo service (running in a container) to the `photographer` service. The `-p 8000:80` option is to publish the container port 80 to port 8000 on the docker host (your local VM). Note that if you don't give the IP of your Mongo container in the `docker run` command, the `photographer` service will try to connect to a Mongo service whose IP is specified in the Dockerfile. This may be the right one… or not.
 
@@ -231,22 +231,16 @@ The `photo` service store photos (as jpeg files) and associated metadata. The me
 
 The `photo` service exposes a **REST** API. It is implemented using the Python **FastAPI** framework. It uses Mongo to persistently store data. The endpoints and the associated HTTP methods are:
 
-- ```
-  /gallery/{display_name}
-  ```
+- ```/gallery/{display_name}```
 
   - `POST` to upload a new photo for the photographer identified by `display_name`. It returns the URI of the photo in the HTTP `Location` header field. The URI of the photo must be of the following form: `/photo/{display_name}/{photo_id}`, `photo_id` being a unique identifier (for the photographer identified by `display_name`).
   - `GET` to obtain a `Photos` object (array of `PhotoDigest` and a boolean indicating if there are more photos to return).
 
-- ```
-  /photo/{display_name}/{photo_id}
-  ```
+- ```/photo/{display_name}/{photo_id}```
 
   - `GET` to obtain the photo identified by `photo_id` taken by the photographer identified by `display_name`
 
-- ```
-  /photo/{display_name}/{photo_id}/attributes
-  ```
+- ```/photo/{display_name}/{photo_id}/attributes```
 
   - `GET` to obtain the attributes of the photo identified by `photo_id` taken by the photographer identified by `display_name`
   - `PUT`, to set the attributes the photo identified by `photo_id` taken by the photographer identified by `display_name`

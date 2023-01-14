@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "149efaa351d55223",
+        "id": "78dd37f70cab917a",
         "type": "tabs",
         "children": [
           {
-            "id": "66f392e2e009760a",
+            "id": "4d118d2fa8c0abba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/python的async和await.md",
+                "file": "云开发/Lab/Docker/Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "9830192f42d5be61",
+            "id": "fddaa429933d58b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Lab/Developing and Testing a Microservice.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c148898cf9d1fc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/Access the Microservices from a Frontend Web Application.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01bc49010f0ff4b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/K8S.md",
+                "file": "云开发/Fastapi的Field和Body.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 406.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Lab/K8S.md",
+                "file": "云开发/Fastapi的Field和Body.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Lab/K8S.md"
+                "file": "云开发/Fastapi的Field和Body.md"
               }
             }
           },
@@ -164,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Lab/K8S.md",
+                "file": "云开发/Fastapi的Field和Body.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,22 +157,21 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": false,
-      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "01bc49010f0ff4b2",
+  "active": "fddaa429933d58b1",
   "lastOpenFiles": [
-    "云开发/Lab/Access the Microservices from a Frontend Web Application.md",
-    "云开发/Lab/Developing and Testing a Microservice.md",
-    "云开发/Lab/GitLab Private Registry and Kubernetes Integration.md",
-    "云开发/Lab/Docker.md",
-    "云开发/Lab/Discovering gRPC and FastAPI.md",
-    "云开发/CROS跨域资源共享.md",
-    "云开发/中间件Middleware.md",
-    "云开发/ASGI：异步服务器网关接口.md",
-    "云开发/用FastAPI、MongoDB和Beanie构建一个CRUD应用程序.md",
-    "云开发/pytest的一些配置文件.md"
+    "云开发/Fastapi的CROSMiddleware.md",
+    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
+    "云开发/Lab/Docker/Docker.md",
+    "云开发/Docker查询容器的IP地址.md",
+    "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
+    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md",
+    "云开发/httpx的AsyncClient.md",
+    "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
+    "云开发/Lab/Openstack/OpenStack and Ansible.md",
+    "云开发/Lab/K8s/Kubernetes Networking.md"
   ]
 }
