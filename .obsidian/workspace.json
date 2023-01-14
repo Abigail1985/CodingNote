@@ -32,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c148898cf9d1fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/Lab/Access the Microservices from a Frontend Web Application.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01bc49010f0ff4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/Lab/K8S.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Lab/Developing and Testing a Microservice.md",
+                "file": "云开发/Lab/K8S.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Lab/Developing and Testing a Microservice.md"
+                "file": "云开发/Lab/K8S.md"
               }
             }
           },
@@ -138,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Lab/Developing and Testing a Microservice.md",
+                "file": "云开发/Lab/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,17 +188,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9830192f42d5be61",
+  "active": "01bc49010f0ff4b2",
   "lastOpenFiles": [
     "云开发/Lab/Access the Microservices from a Frontend Web Application.md",
-    "云开发/Lab/Docker.md",
     "云开发/Lab/Developing and Testing a Microservice.md",
+    "云开发/Lab/GitLab Private Registry and Kubernetes Integration.md",
+    "云开发/Lab/Docker.md",
+    "云开发/Lab/Discovering gRPC and FastAPI.md",
+    "云开发/CROS跨域资源共享.md",
+    "云开发/中间件Middleware.md",
+    "云开发/ASGI：异步服务器网关接口.md",
     "云开发/用FastAPI、MongoDB和Beanie构建一个CRUD应用程序.md",
-    "云开发/pytest的一些配置文件.md",
-    "python数据序列化：json.dumps.md",
-    "httpx的AsyncClient.md",
-    "云开发/MongoDB的访问-Motor用法.md",
-    "云开发/python的async和await.md",
-    "云开发/Fastapi的Field和Body.md"
+    "云开发/pytest的一些配置文件.md"
   ]
 }
