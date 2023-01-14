@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fddaa429933d58b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bbcb4992a6573e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
+                "file": "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
+                "file": "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md"
+                "file": "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md"
               }
             }
           },
@@ -151,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
+                "file": "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,17 +147,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fddaa429933d58b1",
+  "active": "4d118d2fa8c0abba",
   "lastOpenFiles": [
+    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md",
+    "云开发/Lab/Openstack/OpenStack and Ansible.md",
+    "云开发/Lab/Docker/Docker.md",
+    "云开发/Lab/K8s/Kubernetes.md",
+    "云开发/Lab/K8s/Kubernetes Networking.md",
+    "工具/obsidian git 连接远程仓库.md",
+    "工具/如何使用Obsidian-Git.md",
     "云开发/Lab/Dacirco/Job Scheduling Optimization in Openstack.md",
     "云开发/Lab/Dacirco/Minio.md",
-    "云开发/Fastapi的Field和Body.md",
-    "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
-    "云开发/Lab/K8s/Kubernetes.md",
-    "云开发/Lab/Docker/Docker.md",
-    "工具/obsidian git 连接远程仓库.md",
-    "云开发/Fastapi的CROSMiddleware.md",
-    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
-    "云开发/Docker查询容器的IP地址.md"
+    "云开发/Fastapi的Field和Body.md"
   ]
 }
