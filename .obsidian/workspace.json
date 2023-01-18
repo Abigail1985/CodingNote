@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Http状态码.md",
+                "file": "云开发/Lab/K8s/Kubernetes Networking.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 284.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Http状态码.md",
+                "file": "云开发/Lab/K8s/Kubernetes Networking.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Http状态码.md"
+                "file": "云开发/Lab/K8s/Kubernetes Networking.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Http状态码.md",
+                "file": "云开发/Lab/K8s/Kubernetes Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 222.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,14 +150,14 @@
   "active": "4d118d2fa8c0abba",
   "lastOpenFiles": [
     "云开发/Lab/Openstack/OpenStack and Ansible.md",
-    "云开发/Docker查询容器的IP地址.md",
+    "云开发/Lab/K8s/Kubernetes Networking.md",
+    "云开发/Lab/Docker/Docker.md",
+    "云开发/Lab/Openstack/Open Stack Networking.md",
+    "云开发/Lab/K8s/Kubernetes.md",
+    "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
+    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
     "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
     "云开发/Lab/Devops/Discovering gRPC and FastAPI.md",
-    "云开发/Lab/Docker/Docker.md",
-    "云开发/Lab/K8s/Kubernetes.md",
-    "云开发/Lab/K8s/Kubernetes Networking.md",
-    "工具/obsidian git 连接远程仓库.md",
-    "工具/如何使用Obsidian-Git.md",
-    "云开发/Lab/Dacirco/Job Scheduling Optimization in Openstack.md"
+    "云开发/Docker查询容器的IP地址.md"
   ]
 }
