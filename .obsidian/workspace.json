@@ -8,46 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d118d2fa8c0abba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/Openstack/OpenStack and Ansible.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7f089bf856eb72a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/中间件Middleware.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fee3135ac7ba00c4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/openstack的openrc.sh.md",
+                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a344c40476d87d13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "安装Keycloak.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/openstack的openrc.sh.md",
+                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/openstack的openrc.sh.md"
+                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md"
               }
             }
           },
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/openstack的openrc.sh.md",
+                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,15 +164,15 @@
   },
   "active": "fee3135ac7ba00c4",
   "lastOpenFiles": [
-    "云开发/中间件Middleware.md",
-    "云开发/Lab/Openstack/Tools.md",
-    "云开发/Lab/Openstack/OpenStack and Ansible.md",
-    "云开发/Lab/K8s/Kubernetes Networking.md",
-    "云开发/Lab/Docker/Docker.md",
-    "云开发/Lab/Openstack/Open Stack Networking.md",
-    "云开发/Lab/K8s/Kubernetes.md",
+    "安装Keycloak.md",
     "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
-    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
-    "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md"
+    "云开发/k8s-hello.yml和k8s-hello-ingress.yml分析.md",
+    "云开发/Keycloak.md",
+    "云开发/NGINX用作反向代理服务器实现负载均衡.md",
+    "云开发/NGINX的负载均衡.md",
+    "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
+    "云开发/linux设置http_proxy代理.md",
+    "云开发/k8s的配置文件yaml怎么写.md",
+    "云开发/k8s使用cert-manager签发免费证书.md"
   ]
 }
