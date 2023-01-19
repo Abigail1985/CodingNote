@@ -31,9 +31,13 @@ Copy the Kubernetes config file in the appropriate directory on your local VM an
 
 ## 3 Kubernetes Secret
 
-Now you have to go one step further and allow your Kubernetes nodes to access the private registry associated with your GitLab project. Thereafter, we consider that you have successfully completed Section 2.4.1 of the Docker lab. You are going to use a **Kubernetes secret**to store the token giving access to the private registry. As indicated by the official Kubernetes documentation:
+Now you have to go one step further and allow your Kubernetes nodes to access the private registry associated with your GitLab project. Thereafter, we consider that you have successfully completed Section 2.4.1 of the Docker lab. You are going to use a **Kubernetes secret** to store the token giving access to the private registry. As indicated by the official Kubernetes documentation:
 
 > **Kubernetes Secrets** let you store and manage sensitive information, such as passwords, tokens, and keys. Storing confidential information in a `Secret` is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
+
+[[k8s的secret]]
+[[k8s使用secret为pod拉取镜像]]
+
 
 Create a Secret based on your existing Docker credentials
 
@@ -44,6 +48,9 @@ Create a Secret based on your existing Docker credentials
 ```
 
 When writing a Kubernetes manifest for pod that uses a docker image stored on the private registry, you must use this secret.
+
+> [!important] 
+> 在为使用存储在私有注册表中的 docker 映像的 pod 编写 Kubernetes 配置时，您必须使用此密钥。
 
 ## 4 First Steps with your Kubernetes Cluster
 

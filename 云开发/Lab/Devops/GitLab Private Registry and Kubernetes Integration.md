@@ -37,11 +37,17 @@ Download the `k8s-photographer.yml` from http://www.cloud.rennes.enst-bretagne.f
 
 As you can see, the name of the Mongo server as well as the name of the database to be used by the `photographer` service is specified in the K8S file describing the Kubernetes service. Of course, you will replace the name of the database with the one that corresponds to your group. As for the username and the associated password, we do not write their values directly in the K8S file (for obvious security reasons). As you can see, it is assumed that this username and password are stored in a K8S secret.
 
+> [!NOTE]
+> 如您所见，在描述 Kubernetes 服务的 K8 S 文件中指定了 Mongo 服务器的名称以及 `photographer` 服务要使用的数据库的名称。当然，您会将数据库的名称替换为与您的组相对应的名称。至于用户名和相关密码，我们没有将它们的值直接写入 K8 S 文件中（出于明显的安全原因）。如您所见，假设此用户名和密码存储在 K8 S 秘密中。
+
 The secret has already been created by using the following command:
 
 ```
 > kubectl create secret generic mongo --from-literal=username=xxx-user --from-literal=password=yourpassword
 ```
+
+[[k8s使用secret为pod拉取镜像]]
+[[Kubernetes#3 Kubernetes Secret]]
 
 Thanks to the secret, you can upload the code of your service and the K8S file describing it on your GIT repository without revealing the password used to connect to the Mongo database.
 

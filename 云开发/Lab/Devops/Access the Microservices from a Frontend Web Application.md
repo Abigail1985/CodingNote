@@ -144,6 +144,8 @@ The image of this service is available and you can download the K8S file definin
 > kubectl apply -f k8s-hello.yml
 ```
 [[k8s-hello.yml和k8s-hello-ingress.yml分析]]
+
+
 For the moment, the service is not reachable from outside your cluster but you should be able to interact with it by logging in to a node in your cluster.
 
 Please use SSH to log in to one of your Kubernetes controller and use `curl` to issue a `GET` request to the `/hello` endpoint of your `hello` service (do not forget to unset `http_proxy` on the command line before issuing the `curl` command).
@@ -239,7 +241,7 @@ ff02::2 ip6-allrouters
 
 You should be able to access the **Gravitee** console with the following URI `https://apim-xy.example.com/console/#`. The login/password to authenticate is `admin/admin`. If you can't get the following dashboard (do not pay attention to the number of APIs or Applications), then clean your Firefox cache and try to reload the page.
 
-![gravitee-first-screen.png](http://www.cloud.rennes.enst-bretagne.fr/gravitee-first-screen.png)
+![[gravitee-first-screen.png]]
 
 ### 6.1 First Steps with Gravitee
 
@@ -249,71 +251,75 @@ You will discover in the following sections the different steps to build a **Gra
 
 - Left panel: select **APIs** and click on the **+** sign (bottom right of the window)
 
-  ![api-1.png](http://www.cloud.rennes.enst-bretagne.fr/api-1.png)
+![[api-1.png]]
+
 
 - Choose **PATHS BASED** and click on **CREATE**
 
   The screenshot below does not quite match what you have on your screen because the creation of a **PATHS BASED** API is discouraged by the authors of Gravitee in favor of **DESIGN STUDIO**. We still suggest you to choose **PATHS BASED** (instead of a graphical overview of the interface supported by **PATHS BASED**, you have to settle for a link entitled: Or you can still use paths based Import - Create). You will have the opportunity to discover by yourself the interface and the possibilities offered by **DESIGN STUDIO** when you feel comfortable enough with the API concept as defined by Gravitee.
 
-  ![api-2.png](http://www.cloud.rennes.enst-bretagne.fr/api-2.png)
+![[api-2.png]]
 
 - Choose **api-photographer**, **0.1** for the name and the version of the API. Add a description text for the API. Finally, add a context path which **must** start with `/gateway`. We suggest: `/gateway/photographer`. Click on **NEXT**.
 
-  ![api-3.png](http://www.cloud.rennes.enst-bretagne.fr/api-3.png)
+
+![[api-3.png]]
+
+
 
 - Give the name of the backend. The backend is the URI of your photographer service which will handle the requests. If your service is in the `default` Kubernetes name space, choose `http://photographer-service`. If your service is in another namespace (lets say `yournamespace`), then use the following name: `http://photographer-service.yournamespace`
 
-  ![api-4.png](http://www.cloud.rennes.enst-bretagne.fr/api-4.png)
+![[api-4.png]]
 
 - Subscription to an API occurs through a **Gravitee** plan (see https://docs.gravitee.io/apim/3.x/apim_publisherguide_plans_subscriptions.html). Give a name for the plan. Choose **API Key** for the type. As stated in the official documentation, it provides a very basic level of security. Do not forget to slide the latch **Auto validate subscription** and click on **NEXT**.
 
-  ![api-5.png](http://www.cloud.rennes.enst-bretagne.fr/api-5.png)
+![[api-5.png]]
 
 - Click on **SKIP** to skip the documentation page.
 
-  ![api-6.png](http://www.cloud.rennes.enst-bretagne.fr/api-6.png)
+![[api-6.png]]
 
 - Press the button **CREATE AND START THE API** and Confirm.
 
-  ![api-7.png](http://www.cloud.rennes.enst-bretagne.fr/api-7.png)
+
+![[api-7.png]]
+
 
 - Choose **PUBLISH THE API** in the red box called **Danger Zone** and Confirm.
 
-  ![api-8.png](http://www.cloud.rennes.enst-bretagne.fr/api-8.png)
-
+![[api-8.png]]
 #### 6.1.2 Create the App
 
 - Left panel: select **Applications** and click on the **+** sign (bottom right of the window)
+![[app-1.png]]
 
-  ![app-1.png](http://www.cloud.rennes.enst-bretagne.fr/app-1.png)
 
 - Choose **app-photographer**, for the name of the application. Add a description text for the application. Click on **NEXT**.
+![[app-2.png]]
 
-  ![app-2.png](http://www.cloud.rennes.enst-bretagne.fr/app-2.png)
 
 - Enter **web** for the type of your application. Do not enter anything for the **Client ID**. Click on **NEXT**.
+![[app-3.png]]
 
-  ![app-3.png](http://www.cloud.rennes.enst-bretagne.fr/app-3.png)
 
 - Click in the top box entitled **Select an API to subscribe**, choose **api-photographer** and click on **Subscribe** for subscribing to the unique plan (There should be only one plan unless you have created several previously). Click on **NEXT**.
+![[app-4.png]]
 
-  ![app-4.png](http://www.cloud.rennes.enst-bretagne.fr/app-4.png)
 
 - Click on the **CREATE THE APPLICATION** button and Confirm.
+![[app-5-bis.png]]
 
-  ![app-5-bis.png](http://www.cloud.rennes.enst-bretagne.fr/app-5-bis.png)
 
 - Congratulations. You are done. All that remains to do is to learn the key API to use to access your API. Click on **Subscriptions** (left bottom panel).
+![[app-6.png]]
 
-  ![app-6.png](http://www.cloud.rennes.enst-bretagne.fr/app-6.png)
 
 - Click on your API called **api-photographer**.
+![[app-7.png]]
 
-  ![app-7.png](http://www.cloud.rennes.enst-bretagne.fr/app-7.png)
 
 - The API key is visible in the **Api Keys** box. Copy it; you will need it to access your photographer service.
-
-  ![app-8.png](http://www.cloud.rennes.enst-bretagne.fr/app-8.png)
+![[app-8.png]]
 
 #### 6.1.3 Curl
 
@@ -334,14 +340,14 @@ Why should you use such a URI ?:
 
 You will now use an extremely simple graphical user interface to access your `photographer` service from a browser. This interface (whose code is given to you) only presents a button to get the list of photographers (no matter if you have some in your database or not). This graphical interface is of no interest other than to illustrate what **CORS** is.
 
-```
+```html
 <html>  
 <head>  
 <script type = "text/javascript">  
   function getPhotographers() {   
     var request = new XMLHttpRequest();
-    request.open('GET', 'https://apim-xy.example.com/gateway/photographer/photographers');
-    request.setRequestHeader('X-Gravitee-Api-Key', 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx');
+    request.open('GET', 'https://apim-05.example.com/gateway/photographer/photographers');
+    request.setRequestHeader('X-Gravitee-Api-Key', '8b5350ad-3e60-4f31-b852-d5a11906ab6c'); # 注意这里设置了'X-Gravitee-Api-Key'要在gravitee里填入
     request.onreadystatechange = function () {
       if (this.readyState === 4) {
         console.log('Status:', this.status);
@@ -369,6 +375,7 @@ The GUI code above contains a few lines of HTML and JavaScript. When the button 
 
 Update your `/etc/hosts` file (on your local VM) to force the resolution of `www-xy.example.com` to the IP address of your bastion (which runs the HAproxy load balancer). 
 
+
 You will now set up a WEB server in your Kubernetes cluster to serve the `index.html` file containing the GUI code. An Ingress resource will allow to reach this server from outside using the name `https://www-xy.example.com`
 
 Download the code for this basic GUI from http://www.cloud.rennes.enst-bretagne.fr/files/app-lab/basicgui.tar.bz2. Update the `index.html` file with your own API Key. Replace `xy` in the `index.html` and `k8s-basicgui-server.yml` files with your group number. Then, build, tag (choose a name) and push the docker image to your registry. Update the name of the image in the `k8s-basicgui-server.yml` file (As you can see by examining the contents, this K8S file defines a deployment, a service and an ingress. So it has everything you need to access your web server from your local machine with the following URI: `https://www-xy.example.com`). Finally use `kubectl` to deploy your basic GUI to your Kubernetes cluster.
@@ -379,9 +386,15 @@ Type the URI of your server in the address bar of Firefox and display the **Web 
 
 If you have followed all the recommendations, you should have something like the screenshot below (Yes, the button is a bit prominent, but it has to take up space in our interface).
 
-![basic-gui.png](http://www.cloud.rennes.enst-bretagne.fr/basic-gui.png)
+
+> [!caution] 做到此处网页返回503：解决办法
+> [[k8s pod报错imagepullbackoff和解决]]
+
+![[basic-gui.png]]
 
 If you click on the button, you should see (look at the console at the bottom of your Firefox window) errors like this: **Cross-Origin Request Blocked:**
+
+![[IMG_6748.png]]
 
 What does this mean ?
 
@@ -394,11 +407,37 @@ Fortunately, there is a mechanism called **CORS** for **Cross-origin resource sh
 
 Now, you will have to configure your gateway API to allow the code downloaded from `www-xy.example.com` to do a `GET` on the `photographer` service.
 
+
+> [!NOTE]
+> 出于安全原因，浏览器实施**同源**安全策略，禁止从源_A_加载的代码调用源_B_上的代码（从浏览器的角度来看，`www-xy.example.com`和`apim-xy.example.com`是两个不同的来源）。显然，这很烦人，因为你在这里试图做的事情似乎非常合理：
+> 
+> -   从Web服务器加载GUI。
+> -   从GUI查询服务（GUI专为与此服务交互而设计）。
+> 
+> 幸运的是，有一个名为**CORS**的**跨源资源共享**机制，可以让您解除对这种情况的封锁。换句话说，总体想法如下：浏览器在`apim-xy.example.com`上询问API服务器：“您是否允许`www-xy.example.com`的代码与您交互”？然后，`apim-xy.example.com`上的服务器可以根据代码的来源进行授权或不授权。有关更多详细信息，您可以阅读以下内容：[https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)。
+> 
+> 现在，您必须配置网关API，以允许从`www-xy.example.com`下载的代码在`photographer`服务上进行`GET`。
+
+[[CORS跨域资源共享]]
+
 Using the gravitee console, select your API and then click on **Proxy** (bottom left panel) and click on **CORS** to configure it properly to allow your JS code (from `https://www-xy.example.com`) to do a `GET` on your `photographer` service. (The page you have to work on for configuring CORS is the one shown in the screenshot below).
 
-![api-cors.png](http://www.cloud.rennes.enst-bretagne.fr/api-cors.png)
+
+![[api-cors.png]]
 
 Each time you are asked to redeploy your API (a small yellow banner with the follwing message **API out of sync, deploy your API**appears at the top of the window when this is necessary), do so.
+
+修改后如下所示：
+![[IMG_6750.png]]
+
+注意这里在acces-control-allow-headers里填入的内容，是在观察网页发出的请求头之后发现的，之前没添加这个东西，会报错`cors header ‘access-control-allow-origin’ missing`
+
+看之前的index.html的代码里也有`request.setRequestHeader('X-Gravitee-Api-Key', '8b5350ad-3e60-4f31-b852-d5a11906ab6c');`
+
+
+成功后网页返回内容：
+![[IMG_6749.png]]
+
 
 If you need more documentation, you can read this:
 
@@ -412,12 +451,12 @@ If you need more documentation, you can read this:
 So far, we have only used one backend endpoint: the `photographer` service. Of course, the API gateway also needs to interact with the `photo` service for the application to be complete.
 
 Using the gravitee console, select your API and then click on **Proxy** (bottom left panel) and click on **Endpoints** to bring up the interface allowing to add a backend endpoint. (The page you have to work on for adding such an endpoint is shown below).
+![[api-add-endpoint-1.png]]
 
-![api-add-endpoint-1.png](http://www.cloud.rennes.enst-bretagne.fr/api-add-endpoint-1.png)
 
 Use the interface first to rename the **Name** of the `photographer` backend (from `default` to `photographer`) and, then, to add the `photo` backend (use also `photo` for the **Name** of this new backend endpoint). You should arrive at what is shown in the screenshot below.
 
-![api-add-endpoint-2.png](http://www.cloud.rennes.enst-bretagne.fr/api-add-endpoint-2.png)
+![[api-add-endpoint-2.png]]
 
 Congratulations! You are one step closer to the final goal.
 
@@ -426,16 +465,13 @@ We now need to choose which API will be exposed by the Gateway API. This API wil
 In addition, we also need to set up a **dynamic routing policy** to redirect requests reaching our API to the right service according to some criteria.
 
 Using the gravitee console, select your API and then click on **Design** (bottom left panel) By doing this, you should bring up the interface as shown below.
-
-![api-add-policy-1.png](http://www.cloud.rennes.enst-bretagne.fr/api-add-policy-1.png)
+![[api-add-policy-1.png]]
 
 Drag and drop the **Dynamic Routing** box from the left to the middle of the window (to place it in a box whose contours are barely visible). See the screenshot below to see what you must get.
 
-![api-add-policy-2.png](http://www.cloud.rennes.enst-bretagne.fr/api-add-policy-2.png)
-
+![[api-add-policy-2.png]]
 The screenshot below illustrates what you need to do to make your Gateway API redirect requests to the right backend depending on the path (`/gallery`, `/photo`, etc.).
-
-![api-add-policy-3.png](http://www.cloud.rennes.enst-bretagne.fr/api-add-policy-3.png)
+![[api-add-policy-3.png]]
 
 Based on the model shown on the screenshot, add as many routing rules as necessary so that the API can do everything that the `photo`and `photographer` microservices offer. Of course, you have to add more routing rules than there are on the screenshot. Do not forget to save your set of rules and to redeploy the API when asked.
 
@@ -444,38 +480,37 @@ Based on the model shown on the screenshot, add as many routing rules as necessa
 So far, you have successfully installed **Keycloak**, an identity manager and **Gravitee**, an API gateway. Now it's time to try to make it all work together. Our goal will be to implement a React application allowing a user to authenticate to **Keycloak** and secure access to the API using a **JWT** token. Upon authentication, the React client will retrieve the token from Keycloak and will pass it to the Gravitee API Gateway in an HTTP header. The API gateway, which will have previously learned the public key corresponding to the private key used by Keycloak to sign the token, will then be able to authorize access to the API. That seems a little complicated? the following steps will enable you to demystify all that.
 
 The first thing to do is to create a realm called `photo` and a client in that realm called `photoapp`. The names are imperative (`photo`and `photoapp`). If you do not respect these choices, the React application that will be provided to you will not work. Below are two screenshots of Keycloak for adding a realm and a client in the realm.
+![[keycloak-gravitee-0.png]]
 
-![keycloak-gravitee-0.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-0.png)
+![[keycloak-gravitee-1.png]]
 
-![keycloak-gravitee-1.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-1.png)
 
 Still with the Keycloak window, choose **Realm Settings** and select the **General** tab (see first screenshot below). Click on the **OpenID Endpoint Configuration**. A new Firefox tab should appear (see second screenshot below).
 
-![keycloak-gravitee-2bis.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-2bis.png)
+![[keycloak-gravitee-2bis.png]]
 
 Copy the **jwks_uri** and keep it in a safe place, you will need it very soon. Why do we do this? Keycloak will provide the React application with a **JWT** token for each authenticated user. This token will be signed with a private key by Keycloak. The URI you just copied allows any application (for example, Gravitee) that will use it to retrieve the public key corresponding to this private key. Thanks to this public key, the Gravitee application will be able to verify the signature of a JWT token when it receives one.
 
-![keycloak-gravitee-2ter.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-2ter.png)
+![[keycloak-gravitee-2ter.png]]
 
 Now let's switch back to Gravitee. The first thing to do is to close the plan you had previously created. Then create a new plan. Choose a **Name**, a **Description** and don't forget to to slide the latch **Auto validate subscription** before clicking on **NEXT**.
 
-![keycloak-gravitee-2.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-2.png)
+![[keycloak-gravitee-2.png]]
 
 On the next screen, choose **JWT** for Authentication Type. Leave the **Signature** as it is and select **Retrieve JWKS from URL** for the **JWKS resolver**. In the **Resolver Parameter**, paste the **jwks_uri** that you had set aside a moment ago. Mind you, this isn't over … since Keycloak and Gravitee are both running in Kubernetes, Gravitee needs to be given a name that can be resolved in Kubernetes. So replace `https://keycloak-xy.example.com` by `http://keycloak:8080` Click on **NEXT**, **NEXT** and **SAVE**.
-
-![keycloak-gravitee-3.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-3.png)
+![[keycloak-gravitee-3.png]]
 
 Publish the plan (see below) and do not forget to redeploy the API.
+![[keycloak-gravitee-4.png]]
 
-![keycloak-gravitee-4.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-4.png)
 
 The last step is still with Gravitee but now with the application. Select your app and choose **Global settings**. Type your **Client ID** in the **OAuth2 Integration** frame. The client ID **must** match the Keycloak client ID: **photoapp**
+![[keycloak-gravitee-5.png]]
 
-![keycloak-gravitee-5.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-5.png)
 
 Subscribe to this wonderful new plan (see below)
+![[keycloak-gravitee-6.png]]
 
-![keycloak-gravitee-6.png](http://www.cloud.rennes.enst-bretagne.fr/keycloak-gravitee-6.png)
 
 Congratulations. You have now completed the integration of Keycloak with Gravitee and you can deploy the graphical client written in React. This client will allow a user to authenticate to Keycloak and then use your API securely through Gravitee.
 

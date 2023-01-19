@@ -15,9 +15,9 @@
               "type": "markdown",
               "state": {
                 "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "pinned": true
             }
@@ -28,7 +28,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "安装Keycloak.md",
+                "file": "k8s pod报错imagepullbackoff和解决.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4593cdf3985a78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/Lab/K8s/Kubernetes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dd32d827929ceeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "k8s的secret.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2632af5ce5056565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/CORS跨域资源共享.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -141,7 +180,7 @@
               "state": {
                 "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -164,15 +203,15 @@
   },
   "active": "fee3135ac7ba00c4",
   "lastOpenFiles": [
-    "安装Keycloak.md",
+    "云开发/CORS跨域资源共享.md",
     "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
-    "云开发/k8s-hello.yml和k8s-hello-ingress.yml分析.md",
-    "云开发/Keycloak.md",
-    "云开发/NGINX用作反向代理服务器实现负载均衡.md",
-    "云开发/NGINX的负载均衡.md",
-    "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
-    "云开发/linux设置http_proxy代理.md",
-    "云开发/k8s的配置文件yaml怎么写.md",
-    "云开发/k8s使用cert-manager签发免费证书.md"
+    "k8s pod报错imagepullbackoff和解决.md",
+    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
+    "k8s使用secret为pod拉取镜像.md",
+    "云开发/Lab/K8s/Kubernetes.md",
+    "云开发/Lab/Docker/Docker.md",
+    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md",
+    "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
+    "kubernetes配置secret拉取私仓镜像.md"
   ]
 }
