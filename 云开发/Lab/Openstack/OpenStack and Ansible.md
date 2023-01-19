@@ -489,3 +489,20 @@ Write the ansible playbook and test it.
   - MongoDB does not enforce a "schema": documents belonging to the same collection can have different fields. It is, nonetheless, a good idea to enforce a schema and make sure that all documents in a collection have the same schema (or, at the very least, that they all have certain fields).
   - MongoDB does not use SQL as its query language.
 
+
+- OpenStack是一个IaaS平台。
+  - 它提供虚拟机、虚拟网络、虚拟磁盘、虚拟路由器等。
+  - 人们可以使用openstack命令行客户端来创建、查询、删除和修改资源（虚拟机、网络等）。
+  - 可以编写程序来自动创建/销毁资源（不过你在这门课上没有这样做）。
+  - 热力模板描述了一个资源的集合（虚拟机、网络、子网等）。这比使用命令行客户端要快得多。(Heat模板是OpenStack特有的，但每个云平台都有类似的东西。例如，AWS有CloudFormation）。
+- 手工执行系统管理任务很耗时，而且容易出错。(安装软件、添加用户、改变文件/目录权限等）。
+- Ansible可以实现系统管理任务的自动化。
+  - 清单文件包含一个机器列表，可能分为不同的组，任务将在这些机器上执行。
+  - Playbook是一个yaml文件，描述了在不同机器上执行的任务。可以指定某项任务（或一组任务）必须只在属于某个组的机器上执行。
+  - Ansible使用ssh连接到每个机器。
+  - 使用Ansible，在许多机器上执行相同的任务是很容易的：只需将它们添加到清单文件中即可。
+  - Ansible playbook应该是 "空闲 "的，因此它们可以被多次执行，例如在连接错误的情况下，对最终结果没有任何影响。
+  - 游戏手册的作者要确保它确实是空闲的，例如，说明某个目录（或文件）必须存在，而不是发布命令来创建该目录（或文件）。
+- MongoDB是一个NoSQL数据库，存储（json）"文件"，这些文件被组织成不同的 "集合"。
+  - MongoDB不强制执行 "模式"：属于同一集合的文档可以有不同的字段。然而，强制执行模式是一个好主意，并确保一个集合中的所有文档具有相同的模式（或者，至少，它们都有某些字段）。
+  - MongoDB不使用SQL作为其查询语言。 使用www.DeepL.com/Translator翻译（免费版）
