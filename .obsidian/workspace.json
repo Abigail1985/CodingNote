@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s pod报错imagepullbackoff和解决.md",
+                "file": "云开发/Lab/Devops/Developing and Testing a Microservice.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s pod报错imagepullbackoff和解决.md",
+                "file": "云开发/Lab/Devops/Developing and Testing a Microservice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s pod报错imagepullbackoff和解决.md"
+                "file": "云开发/Lab/Devops/Developing and Testing a Microservice.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s pod报错imagepullbackoff和解决.md",
+                "file": "云开发/Lab/Devops/Developing and Testing a Microservice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,14 +166,14 @@
   "active": "225c736c19bce590",
   "lastOpenFiles": [
     "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
-    "k8s pod报错imagepullbackoff和解决.md",
+    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
     "云开发/Lab/K8s/Kubernetes.md",
+    "云开发/Lab/K8s/Kubernetes Networking.md",
+    "k8s pod报错imagepullbackoff和解决.md",
     "k8s的secret.md",
     "安装Keycloak.md",
     "云开发/CORS跨域资源共享.md",
-    "云开发/Lab/Devops/Developing and Testing a Microservice.md",
     "k8s使用secret为pod拉取镜像.md",
-    "云开发/Lab/Docker/Docker.md",
-    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md"
+    "云开发/Lab/Docker/Docker.md"
   ]
 }
