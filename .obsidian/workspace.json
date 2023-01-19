@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "a344c40476d87d13",
+            "id": "225c736c19bce590",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,47 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b4593cdf3985a78b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/Lab/K8s/Kubernetes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dd32d827929ceeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "k8s的secret.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2632af5ce5056565",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/CORS跨域资源共享.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
+                "file": "k8s pod报错imagepullbackoff和解决.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md"
+                "file": "k8s pod报错imagepullbackoff和解决.md"
               }
             }
           },
@@ -178,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
+                "file": "k8s pod报错imagepullbackoff和解决.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,17 +163,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fee3135ac7ba00c4",
+  "active": "225c736c19bce590",
   "lastOpenFiles": [
-    "云开发/CORS跨域资源共享.md",
     "云开发/Lab/Devops/Access the Microservices from a Frontend Web Application.md",
     "k8s pod报错imagepullbackoff和解决.md",
+    "云开发/Lab/K8s/Kubernetes.md",
+    "k8s的secret.md",
+    "安装Keycloak.md",
+    "云开发/CORS跨域资源共享.md",
     "云开发/Lab/Devops/Developing and Testing a Microservice.md",
     "k8s使用secret为pod拉取镜像.md",
-    "云开发/Lab/K8s/Kubernetes.md",
     "云开发/Lab/Docker/Docker.md",
-    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md",
-    "云开发/Lab/Devops/GitLab Private Registry and Kubernetes Integration.md",
-    "kubernetes配置secret拉取私仓镜像.md"
+    "云开发/Lab/Devops/Discovering gRPC and FastAPI.md"
   ]
 }
