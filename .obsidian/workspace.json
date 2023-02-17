@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a432bfe08159717d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpu的互联.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行数据处理/OpenMP.md",
+                "file": "cpu的互联.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行数据处理/OpenMP.md"
+                "file": "cpu的互联.md"
               }
             }
           },
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行数据处理/OpenMP.md",
+                "file": "cpu的互联.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,16 +162,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "fbf0e7e6d35b6281",
+  "active": "a432bfe08159717d",
   "lastOpenFiles": [
+    "并行数据处理/OpenMP.md",
+    "并行数据处理/进程间通信.md",
+    "并行数据处理/多处理器系统.md",
     "云开发/Lab/Openstack/OpenStack and Ansible.md",
     "云开发/IaaS PaaS SaaS.md",
     "并行数据处理/MPI：message passing interface.md",
-    "并行数据处理/OpenMP.md",
     "云开发/python的async和await.md",
     "云开发/Question de cours.md",
-    "并行数据处理/多处理器系统.md",
-    "并行数据处理/进程间通信.md",
     "并行数据处理/images/IMG_8598.jpg",
     "云开发/pydantic的field.md"
   ]
