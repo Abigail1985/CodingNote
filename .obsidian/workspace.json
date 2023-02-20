@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "994c415b33a49ab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/python对列表排序sort函数.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/python的花括号.md",
+                "file": "刷题/python对列表排序sort函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/python的花括号.md"
+                "file": "刷题/python对列表排序sort函数.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/python的花括号.md",
+                "file": "刷题/python对列表排序sort函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,10 +201,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a2048411faf84599",
+  "active": "76f23e76b2aae190",
   "lastOpenFiles": [
-    "刷题/python的enumerate（）函数.md",
     "刷题/python的花括号.md",
+    "刷题/python的enumerate（）函数.md",
     "cpu的互联.md",
     "并行数据处理/OpenMP.md",
     "并行数据处理/进程间通信.md",
