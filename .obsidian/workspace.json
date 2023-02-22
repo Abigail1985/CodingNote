@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6db9cccfd984349b",
+        "id": "591d87ec6600dfc9",
         "type": "tabs",
         "children": [
           {
-            "id": "fbf0e7e6d35b6281",
+            "id": "d09fcb63249a831d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "a432bfe08159717d",
+            "id": "56b40c3b313df4fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpu的互联.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee55f3615d8ff984",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/python的花括号.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2048411faf84599",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/python的花括号.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "994c415b33a49ab9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/python对列表排序sort函数.md",
+                "file": "操作系统中的局部性原理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/python对列表排序sort函数.md",
+                "file": "操作系统中的局部性原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/python对列表排序sort函数.md"
+                "file": "操作系统中的局部性原理.md"
               }
             }
           },
@@ -177,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/python对列表排序sort函数.md",
+                "file": "操作系统中的局部性原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,17 +162,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "76f23e76b2aae190",
+  "active": "56b40c3b313df4fb",
   "lastOpenFiles": [
-    "刷题/python的花括号.md",
-    "刷题/python的enumerate（）函数.md",
-    "cpu的互联.md",
     "并行数据处理/OpenMP.md",
+    "python/python统计字符串中元素出现的次数collections.Counter.md",
+    "并行数据处理/MPI：message passing interface.md",
+    "python/python对列表排序sort函数.md",
+    "python/python的花括号.md",
+    "并行数据处理/cpu的互联.md",
     "并行数据处理/进程间通信.md",
     "并行数据处理/多处理器系统.md",
-    "云开发/Lab/Openstack/OpenStack and Ansible.md",
-    "云开发/IaaS PaaS SaaS.md",
-    "并行数据处理/MPI：message passing interface.md",
-    "云开发/python的async和await.md"
+    "刷题/最小覆盖字串.md",
+    "python/python的enumerate（）函数.md"
   ]
 }
