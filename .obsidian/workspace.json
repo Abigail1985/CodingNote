@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e0707c0dd2ed392",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,15 +164,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "DEVONlink-obsidian:DEVONlink": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "56b40c3b313df4fb",
+  "active": "2e0707c0dd2ed392",
   "lastOpenFiles": [
     "并行数据处理/OpenMP.md",
     "python/python统计字符串中元素出现的次数collections.Counter.md",
