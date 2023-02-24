@@ -37,14 +37,30 @@
             "id": "2e0707c0dd2ed392",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.15"
+                "file": "刷题/最小覆盖字串.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84fa730e11822fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/python if not 用法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统中的局部性原理.md",
+                "file": "python/python if not 用法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统中的局部性原理.md"
+                "file": "python/python if not 用法.md"
               }
             }
           },
@@ -148,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统中的局部性原理.md",
+                "file": "python/python if not 用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +188,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2e0707c0dd2ed392",
+  "active": "84fa730e11822fb2",
   "lastOpenFiles": [
+    "刷题/最小覆盖字串.md",
+    "python/python if not 用法.md",
+    "python/未命名",
     "并行数据处理/OpenMP.md",
     "python/python统计字符串中元素出现的次数collections.Counter.md",
     "并行数据处理/MPI：message passing interface.md",
@@ -182,7 +201,6 @@
     "并行数据处理/cpu的互联.md",
     "并行数据处理/进程间通信.md",
     "并行数据处理/多处理器系统.md",
-    "刷题/最小覆盖字串.md",
     "python/python的enumerate（）函数.md"
   ]
 }
