@@ -8,111 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d09fcb63249a831d",
+            "id": "523d40a1704c76d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行数据处理/OpenMP.md",
+                "file": "刷题/7.树.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "56b40c3b313df4fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/刷题笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21f2d8b4b9ecf011",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/刷题笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcd3035df46c44e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/二叉树.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e0707c0dd2ed392",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/最小覆盖字串.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84fa730e11822fb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/python if not 用法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8f644e322d7a313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/刷题笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a63907091fcec6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/刷题笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/二叉树.md",
+                "file": "刷题/7.树.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/二叉树.md"
+                "file": "刷题/7.树.md"
               }
             }
           },
@@ -216,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/二叉树.md",
+                "file": "刷题/7.树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,11 +147,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "76f23e76b2aae190",
+  "active": "523d40a1704c76d1",
   "lastOpenFiles": [
+    "刷题/9.基础算法.md",
+    "刷题/7.树.md",
+    "刷题/1.数组.md",
     "刷题/刷题笔记.md",
-    "刷题/二叉树.md",
-    "刷题/数组.md",
     "操作系统中的局部性原理.md",
     "刷题/最小覆盖字串.md",
     "刷题/找到字符串中所有字母异位词.md",
