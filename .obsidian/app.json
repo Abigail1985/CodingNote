@@ -7,5 +7,6 @@
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./images",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current"
 }
