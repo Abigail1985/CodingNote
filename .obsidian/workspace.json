@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行计算/MPI教程.md",
+                "file": "云开发/Lab/Docker/Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 375.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/MPI教程.md",
+                "file": "云开发/Lab/Docker/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/MPI教程.md"
+                "file": "云开发/Lab/Docker/Docker.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/MPI教程.md",
+                "file": "云开发/Lab/Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,8 +150,8 @@
   },
   "active": "ce9ed1df7f043129",
   "lastOpenFiles": [
-    "工具/macos查看c头文件路径 vscode配置.md",
     "并行计算/MPI教程.md",
+    "工具/macos查看c头文件路径 vscode配置.md",
     "并行计算/未命名.md",
     "云开发/Docker查询容器的IP地址.md",
     "云开发/k8s使用secret为pod拉取镜像.md",

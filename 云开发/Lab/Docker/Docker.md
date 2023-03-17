@@ -202,6 +202,8 @@ Previously, you changed the files inside your running container but if, for some
 
 Find a way to build a new image from your running container and start a new container from this new image. Use curl on your local VM to check that you have succeeded (do you see the three files `file1.html`, `file2.html` and `file3.html`?).
 
+
+
 ### 6.2 With a Dockerfile
 
 So far, you have used a pre-packaged image that is available on the official Docker registry. You have built a new image by committing your modifications of the file system from the running container. As stated in the Docker documentation, it is better to use Dockerfiles to manage your images in a maintainable way. You can find the corresponding documentation at https://docs.docker.com/engine/reference/builder (as usual there is no need to read the whole page before doing something!). Your goal is to create a Docker image that serves a directory with `file1.html`, `file2.html` and `file3.html` that you have previously downloaded.
