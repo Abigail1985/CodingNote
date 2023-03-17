@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce9ed1df7f043129",
+            "id": "d6041c92a4071e75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
+                "file": "并行计算/MPI_Bcast广播.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62818c44117e15cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "并行计算/MPI教程.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
+                "file": "并行计算/MPI教程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md"
+                "file": "并行计算/MPI教程.md"
               }
             }
           },
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/Lab/Docker/Docker.md",
+                "file": "并行计算/MPI教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,11 +162,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "ce9ed1df7f043129",
+  "active": "62818c44117e15cc",
   "lastOpenFiles": [
+    "并行计算/MPI_Bcast广播.md",
     "并行计算/MPI教程.md",
+    "云开发/如何向dockerhub传本地镜像.md",
+    "云开发/Lab/Docker/Docker.md",
     "工具/macos查看c头文件路径 vscode配置.md",
-    "并行计算/未命名.md",
     "云开发/Docker查询容器的IP地址.md",
     "云开发/k8s使用secret为pod拉取镜像.md",
     "云开发/k8s使用cert-manager签发免费证书.md",
@@ -193,8 +209,6 @@
     "网络/笔记-物理层.md",
     "网络/笔记-网络层.md",
     "网络/笔记-网络层.assets",
-    "网络/笔记-链路层.md",
-    "网络/笔记-链路层.assets",
-    "网络/笔记-可靠数据传输协议.md"
+    "网络/笔记-链路层.assets"
   ]
 }
