@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c4de4f030270311e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/如何向dockerhub传本地镜像.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dockerhub",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/MPI教程.md",
+                "file": "云开发/如何向dockerhub传本地镜像.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/MPI教程.md"
+                "file": "云开发/如何向dockerhub传本地镜像.md"
               }
             }
           },
@@ -138,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/MPI教程.md",
+                "file": "云开发/如何向dockerhub传本地镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,10 +176,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "62818c44117e15cc",
+  "active": "c4de4f030270311e",
   "lastOpenFiles": [
-    "并行计算/MPI_Bcast广播.md",
+    "云开发/NGINX用作反向代理服务器实现负载均衡.md",
+    "云开发/NGINX的负载均衡.md",
+    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "并行计算/MPI教程.md",
+    "并行计算/MPI_Bcast广播.md",
     "云开发/如何向dockerhub传本地镜像.md",
     "云开发/Lab/Docker/Docker.md",
     "工具/macos查看c头文件路径 vscode配置.md",
@@ -204,10 +221,7 @@
     "网络/未命名文件夹",
     "网络/路由选择协议.md",
     "网络/路由选择协议.assets",
-    "网络/笔记-TCP协议.md",
     "网络/笔记-TCP协议.assets",
-    "网络/笔记-物理层.md",
-    "网络/笔记-网络层.md",
     "网络/笔记-网络层.assets",
     "网络/笔记-链路层.assets"
   ]
