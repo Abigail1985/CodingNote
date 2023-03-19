@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行计算/linux里运行和检查ssh服务.md",
+                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/linux里运行和检查ssh服务.md",
+                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/linux里运行和检查ssh服务.md"
+                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/linux里运行和检查ssh服务.md",
+                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,14 +204,14 @@
   },
   "active": "25e86579fa94cf73",
   "lastOpenFiles": [
-    "并行计算/并行计算pi.md",
     "并行计算/linux里运行和检查ssh服务.md",
+    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+    "并行计算/并行计算pi.md",
     "并行计算/MPI教程.md",
     "并行计算/MPI_Bcast广播.md",
     "云开发/如何向dockerhub传本地镜像.md",
     "云开发/NGINX用作反向代理服务器实现负载均衡.md",
     "云开发/NGINX的负载均衡.md",
-    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "云开发/Lab/Docker/Docker.md",
     "工具/macos查看c头文件路径 vscode配置.md",
     "云开发/Docker查询容器的IP地址.md",
