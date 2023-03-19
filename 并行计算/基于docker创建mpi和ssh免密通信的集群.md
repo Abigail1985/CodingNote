@@ -6,7 +6,7 @@
 # 2.建立ssh免密通信
 制作一个docker网段
 ```
-docker network create --subnet=192.168.10.0/16 network_mpi 
+docker network create --subnet=192.161.10.0/16 network_mpi 
 docker network ls
 ```
 

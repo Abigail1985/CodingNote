@@ -1,0 +1,8 @@
+
+BoringSSL是一个由Google开发的开源加密库，旨在提供一个快速、高效、安全的加密库，以替代先前的OpenSSL库。BoringSSL是在Google使用OpenSSL的一段时间后开发的，旨在解决OpenSSL中发现的安全问题和缺陷。
+
+BoringSSL被设计成一个小型库，它的代码库被尽可能地精简和简化，以提高性能和安全性。BoringSSL只包含核心的加密和解密功能，而不像OpenSSL那样提供大量的附加功能和API。此外，BoringSSL也支持新的加密标准和协议，如ChaCha20和Poly1305等。
+
+BoringSSL最初是为Google Chrome浏览器开发的，但现在已经成为许多其他开源项目和应用程序的常用加密库，包括Android、PostgreSQL、Caddy等。
+
+[[SSL加密协议]]

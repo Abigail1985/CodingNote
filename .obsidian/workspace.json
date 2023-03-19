@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6041c92a4071e75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "并行计算/MPI_Bcast广播.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62818c44117e15cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "并行计算/MPI教程.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5003675ab0e085e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "并行计算/并行计算pi.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "25e86579fa94cf73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+                "file": "XQUIC/文档/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,12 +21,38 @@
             }
           },
           {
-            "id": "c4de4f030270311e",
+            "id": "f172b2b59bc1f47b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云开发/如何向dockerhub传本地镜像.md",
+                "file": "XQUIC/安装.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8008799079ff8b5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XQUIC/SSL加密协议.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9acaaaf313499c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XQUIC/安装.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+                "file": "XQUIC/安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md"
+                "file": "XQUIC/安装.md"
               }
             }
           },
@@ -177,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+                "file": "XQUIC/安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,13 +189,24 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "25e86579fa94cf73",
+  "active": "9acaaaf313499c14",
   "lastOpenFiles": [
-    "并行计算/linux里运行和检查ssh服务.md",
+    "XQUIC/BoringSSL开源加密库.md",
+    "XQUIC/SSL加密协议.md",
+    "XQUIC/安装.md",
+    "XQUIC/文档/README.md",
+    "test.md",
+    "XQUIC/文档",
+    "XQUIC",
+    "工具/obsidian git 连接远程仓库.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
-    "并行计算/并行计算pi.md",
-    "并行计算/MPI教程.md",
+    "并行计算/cpu的互联.md",
     "并行计算/MPI_Bcast广播.md",
+    "并行计算/MPI教程.md",
+    "并行计算/OpenMP.md",
+    "linux",
+    "linux/linux里运行和检查ssh服务.md",
+    "并行计算/并行计算pi.md",
     "云开发/如何向dockerhub传本地镜像.md",
     "云开发/NGINX用作反向代理服务器实现负载均衡.md",
     "云开发/NGINX的负载均衡.md",
@@ -222,13 +220,6 @@
     "云开发/Lab/Dacirco/Job Scheduling Optimization in Openstack.md",
     "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
     "云开发/httpx的AsyncClient.md",
-    "网络/笔记/笔记-物理层.md",
-    "网络/笔记/笔记-网络层.md",
-    "网络/笔记/笔记-链路层.md",
-    "网络/笔记/笔记-可靠数据传输协议.md",
-    "test.md",
-    "网络/笔记/未命名.md",
-    "工具/如何更新博客.md",
     "网络/笔记/路由选择协议.assets/image-20221215191701361.png",
     "网络/笔记/路由选择协议.assets/image-20221215192210722.png",
     "网络/笔记/路由选择协议.assets/image-20221215175328809.png",
@@ -239,16 +230,12 @@
     "网络/笔记/路由选择协议.assets/image-20221215180558792.png",
     "网络/笔记/路由选择协议.assets/image-20221215181422612.png",
     "网络/笔记/路由选择协议.assets/image-20221215182745997.png",
-    "网络/笔记/路由选择协议.md",
     "网络/笔记/路由选择协议.assets",
     "网络/笔记/笔记-TCP协议.assets",
     "网络/笔记/笔记-网络层.assets",
     "网络/笔记/笔记-链路层.assets",
     "网络/笔记",
     "网络/未命名文件夹",
-    "网络/路由选择协议.assets",
-    "网络/笔记-TCP协议.assets",
-    "网络/笔记-网络层.assets",
-    "网络/笔记-链路层.assets"
+    "网络/路由选择协议.assets"
   ]
 }
