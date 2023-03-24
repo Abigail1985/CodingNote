@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "e36dd77bc8aa4605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/3.哈希表.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7b7ce6515d6b46ed",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XQUIC/0-RTT.md",
+                "file": "刷题/3.哈希表.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XQUIC/0-RTT.md"
+                "file": "刷题/3.哈希表.md"
               }
             }
           },
@@ -190,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XQUIC/0-RTT.md",
+                "file": "刷题/3.哈希表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +227,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "531ea646f60cf742",
+  "active": "e36dd77bc8aa4605",
   "lastOpenFiles": [
+    "XQUIC/0-RTT.md",
+    "刷题/3.哈希表.md",
     "XQUIC/文档/event_log 模块.md",
     "工具/VScode注释高亮.md",
     "刷题/2.链表.md",
@@ -227,7 +242,6 @@
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
     "工具/未命名.md",
-    "XQUIC/0-RTT.md",
     "XQUIC/SSL加密协议.md",
     "XQUIC/QUIC协议.md",
     "XQUIC/QUIC的连接迁移功能.md",
@@ -244,7 +258,6 @@
     "XQUIC/translation/rfc9002-recovery-zh.md",
     "XQUIC/translation/rfc9001-tls-zh.md",
     "XQUIC/translation",
-    "XQUIC/文档/Testing-zh.md",
     "XQUIC/文档",
     "XQUIC",
     "linux",
