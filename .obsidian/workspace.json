@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/6.树.md",
+                "file": "刷题/1.数组.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "0991552e3d945a22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/6.树.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -135,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,16 +164,18 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "97582f719112ec7b",
+  "active": "0991552e3d945a22",
   "lastOpenFiles": [
+    "刷题/images/Pasted image 20230331134506.png",
+    "python/python逆序遍历列表.md",
+    "刷题/1.数组.md",
+    "刷题/6.树.md",
     "XQUIC/QUIC的连接迁移功能.md",
     "XQUIC/文档/安装.md",
     "XQUIC/文档/event_log 模块.md",
-    "刷题/1.数组.md",
     "刷题/4.字符串.md",
     "XQUIC/0-RTT.md",
     "刷题/最小覆盖字串.md",
-    "刷题/6.树.md",
     "刷题/5.栈与队列.md",
     "刷题/3.哈希表.md",
     "刷题/2.链表.md",
@@ -176,8 +194,6 @@
     "XQUIC/文档/Troubleshooting-zh.md",
     "XQUIC/translation/rfc8999-invariants-zh.md",
     "XQUIC/translation/draft-ietf-quic-qpack-21-zh.md",
-    "XQUIC/translation/draft-ietf-quic-http-34-zh.md",
-    "XQUIC/translation/rfc9221-datagram-zh.md",
     "XQUIC/translation",
     "XQUIC/文档",
     "XQUIC",
