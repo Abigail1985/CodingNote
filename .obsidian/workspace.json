@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -150,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,10 +164,10 @@
   },
   "active": "0991552e3d945a22",
   "lastOpenFiles": [
-    "刷题/images/Pasted image 20230331134506.png",
-    "python/python逆序遍历列表.md",
     "刷题/1.数组.md",
     "刷题/6.树.md",
+    "刷题/images/Pasted image 20230331134506.png",
+    "python/python逆序遍历列表.md",
     "XQUIC/QUIC的连接迁移功能.md",
     "XQUIC/文档/安装.md",
     "XQUIC/文档/event_log 模块.md",
@@ -206,7 +204,6 @@
     "网络/笔记/路由选择协议.assets/image-20221215191604139.png",
     "网络/笔记/路由选择协议.assets/image-20221215175059588.png",
     "网络/笔记/路由选择协议.assets/image-20221215180558792.png",
-    "网络/笔记/路由选择协议.assets/image-20221215181422612.png",
     "网络/笔记/路由选择协议.assets",
     "网络/笔记/笔记-TCP协议.assets",
     "网络/笔记/笔记-网络层.assets",
