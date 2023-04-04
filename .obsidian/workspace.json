@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/重启电脑后Obsidian同步github需要密钥密码.md",
+                "file": "README.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "README",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/重启电脑后Obsidian同步github需要密钥密码.md",
+                "file": "README.md.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/重启电脑后Obsidian同步github需要密钥密码.md"
+                "file": "README.md.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/重启电脑后Obsidian同步github需要密钥密码.md",
+                "file": "README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +162,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0991552e3d945a22",
+  "active": "76f23e76b2aae190",
   "lastOpenFiles": [
+    "工具/重启电脑后Obsidian同步github需要密钥密码.md",
+    "README.md.md",
     "工具/如何使用Obsidian-Git.md",
     "刷题/6.树.md",
     "刷题/1.数组.md",
@@ -184,7 +186,6 @@
     "刷题/9.基础算法.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
-    "工具/未命名.md",
     "XQUIC/SSL加密协议.md",
     "XQUIC/QUIC协议.md",
     "XQUIC/BoringSSL开源加密库.md",
@@ -192,7 +193,6 @@
     "XQUIC/文档/README-zh.md",
     "XQUIC/文档/Troubleshooting-zh.md",
     "XQUIC/translation/rfc8999-invariants-zh.md",
-    "XQUIC/translation/draft-ietf-quic-qpack-21-zh.md",
     "XQUIC/translation",
     "XQUIC/文档",
     "XQUIC",
