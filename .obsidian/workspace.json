@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "README.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,10 +162,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "76f23e76b2aae190",
+  "active": "0991552e3d945a22",
   "lastOpenFiles": [
     "工具/重启电脑后Obsidian同步github需要密钥密码.md",
-    "README.md.md",
+    "README.md",
     "工具/如何使用Obsidian-Git.md",
     "刷题/6.树.md",
     "刷题/1.数组.md",
