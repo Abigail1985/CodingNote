@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/6.树.md",
+                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92d71542bc497b33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/6.树.md",
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/6.树.md"
+                "file": "并行计算/Lab3-加速矩阵运算.md"
               }
             }
           },
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/6.树.md",
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,15 +175,20 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0991552e3d945a22",
+  "active": "92d71542bc497b33",
   "lastOpenFiles": [
-    "Cpp/北大Cpp笔记/北大Cpp笔记.md",
+    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+    "并行计算/Lab3-加速矩阵运算.md",
+    "并行计算/进程间通信.md",
+    "并行计算/操作系统中的局部性原理.md",
+    "并行计算/多处理器系统.md",
     "刷题/6.树.md",
+    "刷题/1.数组.md",
     "刷题/刷题笔记.md",
+    "Cpp/北大Cpp笔记/北大Cpp笔记.md",
     "README.md",
     "工具/重启电脑后Obsidian同步github需要密钥密码.md",
     "工具/如何使用Obsidian-Git.md",
-    "刷题/1.数组.md",
     "刷题/images/Pasted image 20230331134506.png",
     "python/python逆序遍历列表.md",
     "XQUIC/QUIC的连接迁移功能.md",
@@ -188,11 +206,6 @@
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
     "XQUIC/SSL加密协议.md",
-    "XQUIC/QUIC协议.md",
-    "XQUIC/BoringSSL开源加密库.md",
-    "XQUIC/文档/FAQ-zh.md",
-    "XQUIC/文档/README-zh.md",
-    "XQUIC/文档/Troubleshooting-zh.md",
     "XQUIC/translation",
     "XQUIC/文档",
     "XQUIC",
