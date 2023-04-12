@@ -1,6 +1,12 @@
 
 [GitHub - adolfogonzalez3/mpi-example: A collection of C++ programs that use MPI](https://github.com/adolfogonzalez3/mpi-example)
 
+# 思路
+
+用Eigen库创建矩阵，串行计算矩阵
+采用cannon方法
+用MPI_Cart_shift等函数实现cannon方法的通信和架构
+
 ## 问题
 ### MPI_Comm
 MPI_Status是MPI标准库中用于表示消息状态的一种数据类型。在MPI中，进程之间通过发送和接收消息来进行通信，MPI_Status数据类型用于表示一个已完成的MPI消息的状态，包括了消息的发送者、接收者、标记等信息。
