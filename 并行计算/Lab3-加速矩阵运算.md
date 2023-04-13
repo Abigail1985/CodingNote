@@ -1,6 +1,9 @@
 
 [GitHub - adolfogonzalez3/mpi-example: A collection of C++ programs that use MPI](https://github.com/adolfogonzalez3/mpi-example)
 
+[Cannon's Matrix-Matrix Multiplication with MPI's Topologies](http://boron.physics.metu.edu.tr/ozdogan/GraduateParallelComputing.old/ceng505/node133.html)
+
+
 # 思路
 
 用Eigen库创建矩阵，串行计算矩阵
@@ -41,4 +44,79 @@ mycoords是一个大小为2的整型数组，其中mycoords[0]和mycoords[1]分�
 在之前那段代码中，MPI_Cart_shift函数的作用是获取在二维笛卡尔拓扑结构中当前进程在某个维度上的相邻进程的rank。MPI_Cart_shift函数需要传入五个参数，分别为通信器、坐标轴方向、移动距离、向左移动的进程rank和向右移动的进程rank，返回结果存储在rightrank和leftrank变量中。
 
 在代码中，MPI_Cart_shift函数的输入参数为comm_2d（二维笛卡尔拓扑结构的通信器）、0（表示在笛卡尔拓扑结构的列维度上进行操作）、-1（表示向左移动一个单位距离），以及&rightrank和&leftrank（用于存储向左移动和向右移动后的进程rank）。这个函数的作用是获取当前进程在笛卡尔拓扑结构中，列维度上的左侧和右侧相邻进程的rank，分别存储在leftrank和rightrank中。
+
+
+运行结果是：
+```
+****************
+c =
+4 0 0 0
+4 0 0 0
+4 0 0 0
+4 0 0 0
+****************
+****************
+c =
+8 0 0 0
+8 0 0 0
+8 0 0 0
+8 0 0 0
+****************
+****************
+c =
+4 0 0 0
+4 0 0 0
+4 0 0 0
+4 0 0 0
+****************
+****************
+c =
+4 0 0 0
+4 0 0 0
+4 0 0 0
+4 0 0 0
+****************
+********************************
+c =
+
+4 0 0 0
+4 0 0 0
+4 0 0 0
+4 0 0 0
+****************
+c =
+8 0 0 0
+8 0 0 0
+8 0 0 0
+8 0 0 0
+****************
+****************
+c =
+8 0 0 0
+8 0 0 0
+8 0 0 0
+8 0 0 0
+****************
+a =
+1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1
+b =
+2 2 2 2
+2 2 2 2
+2 2 2 2
+2 2 2 2
+a*b =
+8 8 8 8
+8 8 8 8
+8 8 8 8
+8 8 8 8
+c =
+8 0 0 0
+8 0 0 0
+8 0 0 0
+8 0 0 0
+
+```
 
