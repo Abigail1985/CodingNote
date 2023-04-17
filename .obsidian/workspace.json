@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "linux/linux里运行和检查ssh服务.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "linux/linux里运行和检查ssh服务.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md"
+                "file": "linux/linux里运行和检查ssh服务.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "linux/linux里运行和检查ssh服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,11 +190,13 @@
   },
   "active": "16b430a44337b707",
   "lastOpenFiles": [
-    "刷题/6.树.md",
-    "并行计算/hadoop运行wordcount.md",
-    "并行计算/images/Pasted image 20230215103247.png",
-    "并行计算/Lab3-加速矩阵运算.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+    "并行计算/Lab3-加速矩阵运算.md",
+    "并行计算/hadoop运行wordcount.md",
+    "刷题/刷题笔记.md",
+    "刷题/7.回溯算法.md",
+    "刷题/6.树.md",
+    "并行计算/images/Pasted image 20230215103247.png",
     "并行计算/多处理器系统.md",
     "并行计算/并行计算pi.md",
     "并行计算/操作系统中的局部性原理.md",
@@ -204,7 +206,6 @@
     "并行计算/Mapreduce.md",
     "并行计算/进程间通信.md",
     "刷题/1.数组.md",
-    "刷题/刷题笔记.md",
     "Cpp/北大Cpp笔记/北大Cpp笔记.md",
     "README.md",
     "工具/重启电脑后Obsidian同步github需要密钥密码.md",
