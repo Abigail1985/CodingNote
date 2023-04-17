@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux里运行和检查ssh服务.md",
+                "file": "刷题/刷题笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux里运行和检查ssh服务.md",
+                "file": "刷题/刷题笔记.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/linux里运行和检查ssh服务.md"
+                "file": "刷题/刷题笔记.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/linux里运行和检查ssh服务.md",
+                "file": "刷题/刷题笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,11 +190,12 @@
   },
   "active": "16b430a44337b707",
   "lastOpenFiles": [
+    "刷题/7.回溯算法.md",
+    "linux/linux里运行和检查ssh服务.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "并行计算/Lab3-加速矩阵运算.md",
     "并行计算/hadoop运行wordcount.md",
     "刷题/刷题笔记.md",
-    "刷题/7.回溯算法.md",
     "刷题/6.树.md",
     "并行计算/images/Pasted image 20230215103247.png",
     "并行计算/多处理器系统.md",
@@ -217,7 +218,6 @@
     "XQUIC/文档/event_log 模块.md",
     "刷题/4.字符串.md",
     "XQUIC/0-RTT.md",
-    "刷题/最小覆盖字串.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
     "XQUIC/translation",
