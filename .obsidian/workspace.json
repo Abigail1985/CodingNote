@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "007c3d07c768423a",
+        "id": "b610dc8f2dfd80fb",
         "type": "tabs",
         "children": [
           {
-            "id": "97582f719112ec7b",
+            "id": "b85d3e3dc3a28f06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/1.数组.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0991552e3d945a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92d71542bc497b33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16b430a44337b707",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/7.回溯算法.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/7.回溯算法.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/7.回溯算法.md"
+                "file": "刷题/日记/2023-04-19.md"
               }
             }
           },
@@ -164,14 +125,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/7.回溯算法.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "3cdf6e0621a21ae7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "303758df3484fd46",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -180,17 +157,35 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "DEVONlink-obsidian:DEVONlink": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "daily-notes:打开/创建今天的日记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "16b430a44337b707",
+  "active": "b85d3e3dc3a28f06",
   "lastOpenFiles": [
-    "刷题/刷题笔记.md",
+    "刷题/日记/2023-04-18.md",
+    "刷题/日记/2023-04-19.md",
+    "刷题/记录.md",
+    "未命名 1.canvas",
+    "刷题/日记/2023-04-03.md",
+    "未命名",
+    "未命名.canvas",
+    "云开发/Lab/Openstack/OpenStack and Ansible.md",
+    "云开发/Lab/Openstack/Open Stack Networking.md",
+    "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
+    "云开发/Lab/K8s/Kubernetes Networking.md",
+    "云开发/Lab/K8s/Kubernetes.md",
+    "云开发/Lab/Docker/Docker.md",
+    "刷题/｜2023-04-03.md",
+    "刷题/日记/2023-04-17.md",
+    "刷题/日记/2023-04-10.md",
+    "刷题/日记/2023-04-09.md",
+    "刷题/日记/2023-04-04.md",
+    "刷题/日记",
     "刷题/7.回溯算法.md",
     "linux/linux里运行和检查ssh服务.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
@@ -203,21 +198,7 @@
     "并行计算/操作系统中的局部性原理.md",
     "并行计算/MPI_Bcast广播.md",
     "并行计算/MPI教程.md",
-    "并行计算/MPI：message passing interface.md",
-    "并行计算/Mapreduce.md",
-    "并行计算/进程间通信.md",
-    "刷题/1.数组.md",
-    "Cpp/北大Cpp笔记/北大Cpp笔记.md",
-    "README.md",
-    "工具/重启电脑后Obsidian同步github需要密钥密码.md",
-    "工具/如何使用Obsidian-Git.md",
     "刷题/images/Pasted image 20230331134506.png",
-    "python/python逆序遍历列表.md",
-    "XQUIC/QUIC的连接迁移功能.md",
-    "XQUIC/文档/安装.md",
-    "XQUIC/文档/event_log 模块.md",
-    "刷题/4.字符串.md",
-    "XQUIC/0-RTT.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
     "XQUIC/translation",
@@ -233,8 +214,6 @@
     "网络/笔记/路由选择协议.assets/image-20221215175059588.png",
     "网络/笔记/路由选择协议.assets",
     "网络/笔记/笔记-TCP协议.assets",
-    "网络/笔记/笔记-网络层.assets",
-    "网络/笔记/笔记-链路层.assets",
-    "网络/笔记"
+    "网络/笔记/笔记-网络层.assets"
   ]
 }

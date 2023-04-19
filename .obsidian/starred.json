@@ -1,3 +1,9 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "file",
+      "title": "记录",
+      "path": "刷题/记录.md"
+    }
+  ]
 }
