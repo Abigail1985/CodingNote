@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/记录.md"
+                "file": "刷题/日记/2023-04-19.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,11 +167,11 @@
   },
   "active": "4a3af9f5f5a1fc04",
   "lastOpenFiles": [
+    "刷题/记录.md",
     "刷题/日记/2023-04-17.md",
     "刷题/日记/2023-04-19.md",
     "刷题/日记/2023-04-18.md",
     "未命名 3.canvas",
-    "刷题/记录.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "刷题/日记/2023-04-03.md",
