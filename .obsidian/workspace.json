@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b610dc8f2dfd80fb",
+        "id": "8966248b656038c4",
         "type": "tabs",
         "children": [
           {
-            "id": "b85d3e3dc3a28f06",
+            "id": "4a3af9f5f5a1fc04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
+                "file": "刷题/记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
+                "file": "刷题/记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-04-19.md"
+                "file": "刷题/记录.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
+                "file": "刷题/记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,11 +165,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b85d3e3dc3a28f06",
+  "active": "4a3af9f5f5a1fc04",
   "lastOpenFiles": [
-    "刷题/日记/2023-04-18.md",
+    "刷题/日记/2023-04-17.md",
     "刷题/日记/2023-04-19.md",
+    "刷题/日记/2023-04-18.md",
+    "未命名 3.canvas",
     "刷题/记录.md",
+    "未命名 2.canvas",
     "未命名 1.canvas",
     "刷题/日记/2023-04-03.md",
     "未命名",
@@ -181,7 +184,6 @@
     "云开发/Lab/K8s/Kubernetes.md",
     "云开发/Lab/Docker/Docker.md",
     "刷题/｜2023-04-03.md",
-    "刷题/日记/2023-04-17.md",
     "刷题/日记/2023-04-10.md",
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-04.md",
@@ -197,7 +199,6 @@
     "并行计算/并行计算pi.md",
     "并行计算/操作系统中的局部性原理.md",
     "并行计算/MPI_Bcast广播.md",
-    "并行计算/MPI教程.md",
     "刷题/images/Pasted image 20230331134506.png",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
