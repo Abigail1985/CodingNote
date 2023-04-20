@@ -4,25 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "a237fd458df18b7c",
+        "id": "385d3caf9499a220",
         "type": "tabs",
         "children": [
           {
-            "id": "6236abed20a864c2",
+            "id": "b5e45fe96802d526",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 5.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "刷题/7.回溯算法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42453006f11ea739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -89,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 5.canvas",
+                "file": "刷题/记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 5.canvas"
+                "file": "刷题/记录.md"
               }
             }
           },
@@ -127,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 5.canvas",
+                "file": "刷题/记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,7 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
+      "canvas:新建白板": true,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
@@ -167,21 +178,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6236abed20a864c2",
+  "active": "42453006f11ea739",
   "lastOpenFiles": [
-    "刷题/日记/2023-04-20.md",
-    "未命名 5.canvas",
-    "未命名 4.canvas",
-    "刷题/日记/2023-04-19.md",
+    "刷题/8.贪心算法.md",
+    "刷题/7.回溯算法.md",
     "刷题/记录.md",
-    "刷题/日记/2023-04-17.md",
+    "刷题/日记/2023-04-20.md",
+    "README.md",
+    "安卓/显式intent的使用.md",
+    "未命名.canvas",
     "刷题/日记/2023-04-18.md",
-    "未命名 3.canvas",
+    "刷题/日记/2023-04-19.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
+    "未命名 6.canvas",
+    "未命名 5.canvas",
+    "未命名 4.canvas",
+    "刷题/日记/2023-04-17.md",
+    "未命名 3.canvas",
     "刷题/日记/2023-04-03.md",
     "未命名",
-    "未命名.canvas",
     "云开发/Lab/Openstack/OpenStack and Ansible.md",
     "云开发/Lab/Openstack/Open Stack Networking.md",
     "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
@@ -193,7 +209,6 @@
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-04.md",
     "刷题/日记",
-    "刷题/7.回溯算法.md",
     "linux/linux里运行和检查ssh服务.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "并行计算/Lab3-加速矩阵运算.md",
@@ -201,8 +216,6 @@
     "刷题/6.树.md",
     "并行计算/images/Pasted image 20230215103247.png",
     "并行计算/多处理器系统.md",
-    "并行计算/并行计算pi.md",
-    "并行计算/操作系统中的局部性原理.md",
     "刷题/images/Pasted image 20230331134506.png",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
