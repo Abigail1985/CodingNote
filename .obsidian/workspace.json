@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-04-20.md",
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-04-20.md",
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-04-20.md"
+                "file": "并行计算/Lab3-加速矩阵运算.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-04-20.md",
+                "file": "并行计算/Lab3-加速矩阵运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

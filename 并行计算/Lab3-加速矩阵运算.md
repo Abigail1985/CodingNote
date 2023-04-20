@@ -123,3 +123,9 @@ c =
 可能是因为计算后c的值没有被收集起来，一共出现了四次c=8 0 
 
 试试用MPI_Gather
+
+MPI_Gatherv(&(localC[0][0]), rows * columns / worldSize, MPI_INT,
+
+globalptrC, sendCounts, displacements, subarrtype,
+
+0, MPI_COMM_WORLD);
