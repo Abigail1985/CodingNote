@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8966248b656038c4",
+        "id": "a237fd458df18b7c",
         "type": "tabs",
         "children": [
           {
-            "id": "4a3af9f5f5a1fc04",
+            "id": "6236abed20a864c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "未命名 5.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -87,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
+                "file": "未命名 5.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-04-19.md"
+                "file": "未命名 5.canvas"
               }
             }
           },
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-04-19.md",
+                "file": "未命名 5.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,11 +167,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a3af9f5f5a1fc04",
+  "active": "6236abed20a864c2",
   "lastOpenFiles": [
+    "刷题/日记/2023-04-20.md",
+    "未命名 5.canvas",
+    "未命名 4.canvas",
+    "刷题/日记/2023-04-19.md",
     "刷题/记录.md",
     "刷题/日记/2023-04-17.md",
-    "刷题/日记/2023-04-19.md",
     "刷题/日记/2023-04-18.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
@@ -198,7 +203,6 @@
     "并行计算/多处理器系统.md",
     "并行计算/并行计算pi.md",
     "并行计算/操作系统中的局部性原理.md",
-    "并行计算/MPI_Bcast广播.md",
     "刷题/images/Pasted image 20230331134506.png",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
