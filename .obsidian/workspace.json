@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-20.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-20.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/记录.md"
+                "file": "刷题/日记/2023-04-20.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/记录.md",
+                "file": "刷题/日记/2023-04-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,9 +180,9 @@
   },
   "active": "42453006f11ea739",
   "lastOpenFiles": [
+    "刷题/记录.md",
     "刷题/8.贪心算法.md",
     "刷题/7.回溯算法.md",
-    "刷题/记录.md",
     "刷题/日记/2023-04-20.md",
     "README.md",
     "安卓/显式intent的使用.md",
