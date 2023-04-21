@@ -129,3 +129,8 @@ MPI_Gatherv(&(localC[0][0]), rows * columns / worldSize, MPI_INT,
 globalptrC, sendCounts, displacements, subarrtype,
 
 0, MPI_COMM_WORLD);
+
+
+MPI_Gather是阻塞型函数，在 MPI_Gather 函数调用时，只有所有进程都发送完数据并将其存储到接收缓冲区中后，该函数才会返回。因此，如果存在任何一个进程没有完成发送操作，或者接收进程没有准备好接收数据，那么 MPI_Gather 函数将一直等待，直到所有进程都完成数据传输为止。
+
+在rank=0的进程里调用MPI_Gather导致阻塞
