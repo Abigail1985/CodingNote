@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "刷题/8.贪心算法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,19 +21,33 @@
             }
           },
           {
-            "id": "42453006f11ea739",
+            "id": "e9311e2eae3ce17b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-04-20.md",
+                "file": "刷题/日记/2023-04-21.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6479f4e86050295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "README",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -99,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "刷题/日记/2023-04-21.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md"
+                "file": "刷题/日记/2023-04-21.md"
               }
             }
           },
@@ -137,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并行计算/Lab3-加速矩阵运算.md",
+                "file": "刷题/日记/2023-04-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -177,11 +192,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5e45fe96802d526",
+  "active": "e9311e2eae3ce17b",
   "lastOpenFiles": [
-    "刷题/日记/2023-04-20.md",
     "刷题/记录.md",
+    "刷题/日记/2023-04-21.md",
     "刷题/8.贪心算法.md",
+    "刷题/日记/2023-04-20.md",
+    "并行计算/Lab3-加速矩阵运算.md",
     "刷题/7.回溯算法.md",
     "README.md",
     "安卓/显式intent的使用.md",
@@ -210,11 +227,9 @@
     "刷题/日记",
     "linux/linux里运行和检查ssh服务.md",
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
-    "并行计算/Lab3-加速矩阵运算.md",
     "并行计算/hadoop运行wordcount.md",
     "刷题/6.树.md",
     "并行计算/images/Pasted image 20230215103247.png",
-    "并行计算/多处理器系统.md",
     "刷题/images/Pasted image 20230331134506.png",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/images",
