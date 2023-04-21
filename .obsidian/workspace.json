@@ -29,7 +29,7 @@
                 "file": "刷题/日记/2023-04-21.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           },
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,11 +193,15 @@
   },
   "active": "e9311e2eae3ce17b",
   "lastOpenFiles": [
-    "刷题/记录.md",
+    "并行计算/hadoop运行wordcount.md",
+    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
+    "并行计算/Lab3-加速矩阵运算.md",
+    "linux/linux里运行和检查ssh服务.md",
+    "并行计算/多处理器系统.md",
     "刷题/日记/2023-04-21.md",
+    "刷题/记录.md",
     "刷题/8.贪心算法.md",
     "刷题/日记/2023-04-20.md",
-    "并行计算/Lab3-加速矩阵运算.md",
     "刷题/7.回溯算法.md",
     "README.md",
     "安卓/显式intent的使用.md",
@@ -225,10 +228,6 @@
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-04.md",
     "刷题/日记",
-    "linux/linux里运行和检查ssh服务.md",
-    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
-    "并行计算/hadoop运行wordcount.md",
-    "刷题/6.树.md",
     "并行计算/images/Pasted image 20230215103247.png",
     "刷题/images/Pasted image 20230331134506.png",
     "刷题/images/339571679472020_.pic.jpg",
