@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "4c64dc50bb6b4304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云开发/ubuntu上安装docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f6479f4e86050295",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-04-22.md",
+                "file": "云开发/ubuntu上安装docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-04-22.md"
+                "file": "云开发/ubuntu上安装docker.md"
               }
             }
           },
@@ -151,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-04-22.md",
+                "file": "云开发/ubuntu上安装docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +204,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9311e2eae3ce17b",
+  "active": "4c64dc50bb6b4304",
   "lastOpenFiles": [
-    "刷题/8.贪心算法.md",
     "刷题/日记/2023-04-22.md",
+    "云开发/ubuntu上安装docker.md",
+    "刷题/8.贪心算法.md",
     "刷题/日记/2023-04-21.md",
     "刷题/记录.md",
     "并行计算/hadoop运行wordcount.md",
@@ -226,7 +240,6 @@
     "云开发/Lab/Docker/Docker.md",
     "刷题/｜2023-04-03.md",
     "刷题/日记/2023-04-10.md",
-    "刷题/日记/2023-04-09.md",
     "刷题/日记",
     "并行计算/images/Pasted image 20230215103247.png",
     "刷题/images/Pasted image 20230331134506.png",
