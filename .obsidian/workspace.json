@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-04-22.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c64dc50bb6b4304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云开发/ubuntu上安装docker.md",
+                "file": "刷题/日记/2023-04-23.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "daemon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云开发/ubuntu上安装docker.md",
+                "file": "刷题/日记/2023-04-23.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云开发/ubuntu上安装docker.md"
+                "file": "刷题/日记/2023-04-23.md"
               }
             }
           },
@@ -164,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云开发/ubuntu上安装docker.md",
+                "file": "刷题/日记/2023-04-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -204,15 +192,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c64dc50bb6b4304",
+  "active": "e9311e2eae3ce17b",
   "lastOpenFiles": [
+    "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
+    "刷题/日记/2023-04-23.md",
+    "工具/zerotier提示Waiting for ZeroTier system service.md",
+    "云开发/Lab/Docker/Docker.md",
+    "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
+    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "刷题/日记/2023-04-22.md",
     "云开发/ubuntu上安装docker.md",
     "刷题/8.贪心算法.md",
     "刷题/日记/2023-04-21.md",
     "刷题/记录.md",
     "并行计算/hadoop运行wordcount.md",
-    "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "并行计算/Lab3-加速矩阵运算.md",
     "linux/linux里运行和检查ssh服务.md",
     "并行计算/多处理器系统.md",
@@ -234,12 +227,7 @@
     "未命名",
     "云开发/Lab/Openstack/OpenStack and Ansible.md",
     "云开发/Lab/Openstack/Open Stack Networking.md",
-    "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
     "云开发/Lab/K8s/Kubernetes Networking.md",
-    "云开发/Lab/K8s/Kubernetes.md",
-    "云开发/Lab/Docker/Docker.md",
-    "刷题/｜2023-04-03.md",
-    "刷题/日记/2023-04-10.md",
     "刷题/日记",
     "并行计算/images/Pasted image 20230215103247.png",
     "刷题/images/Pasted image 20230331134506.png",
