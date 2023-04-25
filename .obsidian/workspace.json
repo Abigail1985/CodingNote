@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07a2601fd1759b1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -181,10 +194,10 @@
   },
   "active": "e9311e2eae3ce17b",
   "lastOpenFiles": [
-    "刷题/日记/2023-04-24.md",
+    "刷题/记录.md",
     "刷题/日记/2023-04-25.md",
     "刷题/8.贪心算法.md",
-    "刷题/记录.md",
+    "刷题/日记/2023-04-24.md",
     "刷题/日记/2023-04-21.md",
     "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
     "工具/zerotier提示Waiting for ZeroTier system service.md",
