@@ -8,45 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5e45fe96802d526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-04-26.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9311e2eae3ce17b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-04-25.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07a2601fd1759b1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-05-04.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6f30dc8ac3b12c2b",
             "type": "leaf",
             "state": {
@@ -58,9 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8bd7e8f2e950e427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/日记/9.动态规划.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,11 +187,12 @@
   },
   "active": "6f30dc8ac3b12c2b",
   "lastOpenFiles": [
+    "刷题/日记/9.动态规划.md",
     "刷题/日记/2023-05-07.md",
-    "刷题/记录.md",
-    "刷题/日记/2023-05-04.md",
     "刷题/日记/2023-04-26.md",
     "刷题/日记/2023-04-25.md",
+    "刷题/日记/2023-05-04.md",
+    "刷题/记录.md",
     "刷题/日记/2023-04-24.md",
     "刷题/日记/2023-04-22.md",
     "刷题/日记/2023-04-21.md",
@@ -239,7 +213,6 @@
     "云开发/ubuntu上安装docker.md",
     "并行计算/hadoop运行wordcount.md",
     "并行计算/Lab3-加速矩阵运算.md",
-    "linux/linux里运行和检查ssh服务.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
