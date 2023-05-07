@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f30dc8ac3b12c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/日记/2023-05-07.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,6 +105,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "2edbdc95cb237d7e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -113,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-05-04.md",
+                "file": "刷题/日记/2023-05-07.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-05-04.md"
+                "file": "刷题/日记/2023-05-07.md"
               }
             }
           },
@@ -151,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-05-04.md",
+                "file": "刷题/日记/2023-05-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +212,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "07a2601fd1759b1d",
+  "active": "6f30dc8ac3b12c2b",
   "lastOpenFiles": [
+    "刷题/日记/2023-05-07.md",
     "刷题/记录.md",
     "刷题/日记/2023-05-04.md",
     "刷题/日记/2023-04-26.md",
@@ -218,7 +240,6 @@
     "并行计算/hadoop运行wordcount.md",
     "并行计算/Lab3-加速矩阵运算.md",
     "linux/linux里运行和检查ssh服务.md",
-    "并行计算/多处理器系统.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
