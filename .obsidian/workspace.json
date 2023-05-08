@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-05-07.md",
+                "file": "刷题/日记/2023-05-08.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-05-07.md",
+                "file": "刷题/日记/2023-05-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-05-07.md"
+                "file": "刷题/日记/2023-05-08.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-05-07.md",
+                "file": "刷题/日记/2023-05-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +187,9 @@
   },
   "active": "6f30dc8ac3b12c2b",
   "lastOpenFiles": [
-    "刷题/日记/9.动态规划.md",
     "刷题/日记/2023-05-07.md",
+    "刷题/日记/2023-05-08.md",
+    "刷题/日记/9.动态规划.md",
     "刷题/日记/2023-04-26.md",
     "刷题/日记/2023-04-25.md",
     "刷题/日记/2023-05-04.md",
@@ -212,7 +213,6 @@
     "并行计算/基于docker创建mpi和ssh免密通信的集群.md",
     "云开发/ubuntu上安装docker.md",
     "并行计算/hadoop运行wordcount.md",
-    "并行计算/Lab3-加速矩阵运算.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
