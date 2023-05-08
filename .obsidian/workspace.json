@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "90d1fe9a53d06a3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/obsidian tasks用法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8bd7e8f2e950e427",
             "type": "leaf",
             "state": {
@@ -46,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/obsidian tasks用法.md",
+                "file": "刷题/日记/2023-05-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/obsidian tasks用法.md"
+                "file": "刷题/日记/2023-05-08.md"
               }
             }
           },
@@ -159,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/obsidian tasks用法.md",
+                "file": "刷题/日记/2023-05-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,12 +185,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90d1fe9a53d06a3a",
+  "active": "6f30dc8ac3b12c2b",
   "lastOpenFiles": [
+    "刷题/日记/9.动态规划.md",
     "刷题/日记/2023-05-08.md",
     "刷题/日记/obsidian tasks用法.md",
     "刷题/日记/2023-05-07.md",
-    "刷题/日记/9.动态规划.md",
     "刷题/日记/2023-04-26.md",
     "刷题/日记/2023-04-25.md",
     "刷题/日记/2023-05-04.md",
