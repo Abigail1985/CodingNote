@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-05-09.md",
+                "file": "IOT/http实验.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-05-09.md",
+                "file": "IOT/http实验.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-05-09.md"
+                "file": "IOT/http实验.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-05-09.md",
+                "file": "IOT/http实验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +187,12 @@
   },
   "active": "6f30dc8ac3b12c2b",
   "lastOpenFiles": [
-    "刷题/日记/2023-05-08.md",
+    "IOT/images/Pasted image 20230509173341.png",
+    "IOT/images",
     "刷题/日记/2023-05-09.md",
+    "IOT/http实验.md",
+    "IOT",
+    "刷题/日记/2023-05-08.md",
     "工具/obsidian git 连接远程仓库.md",
     "刷题/9.动态规划.md",
     "刷题/日记/obsidian tasks用法.md",
@@ -211,8 +215,6 @@
     "刷题/8.贪心算法.md",
     "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
     "工具/zerotier提示Waiting for ZeroTier system service.md",
-    "云开发/Lab/Docker/Docker.md",
-    "云开发/Lab/Openstack/Add a Compute Node to an OpenStack Cluster.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
@@ -220,7 +222,6 @@
     "未命名 5.canvas",
     "未命名 4.canvas",
     "未命名 3.canvas",
-    "未命名",
     "刷题/日记",
     "并行计算/images/Pasted image 20230215103247.png",
     "刷题/images/Pasted image 20230331134506.png",
@@ -238,7 +239,6 @@
     "网络/笔记/路由选择协议.assets/image-20221215191604139.png",
     "网络/笔记/路由选择协议.assets/image-20221215175059588.png",
     "网络/笔记/路由选择协议.assets",
-    "网络/笔记/笔记-TCP协议.assets",
-    "网络/笔记/笔记-网络层.assets"
+    "网络/笔记/笔记-TCP协议.assets"
   ]
 }
