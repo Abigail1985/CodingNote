@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "42d2ec13ccbed57b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/日记/2023-05-11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8bd7e8f2e950e427",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-05-10.md",
+                "file": "刷题/日记/2023-05-11.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-05-10.md"
+                "file": "刷题/日记/2023-05-11.md"
               }
             }
           },
@@ -145,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-05-10.md",
+                "file": "刷题/日记/2023-05-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,8 +199,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6f30dc8ac3b12c2b",
+  "active": "42d2ec13ccbed57b",
   "lastOpenFiles": [
+    "刷题/日记/2023-05-11.md",
     "刷题/日记/2023-05-09.md",
     "刷题/日记/2023-05-10.md",
     "IOT/http实验.md",
@@ -215,7 +230,6 @@
     "刷题/日记/2023-04-03.md",
     "刷题/8.贪心算法.md",
     "云开发/Kubernetes中Service、Ingress与Ingress Controller的作用与关系.md",
-    "工具/zerotier提示Waiting for ZeroTier system service.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
