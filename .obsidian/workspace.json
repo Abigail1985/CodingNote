@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-05-19.md",
+                "file": "刷题/日记/2023-05-23.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-05-19.md",
+                "file": "刷题/日记/2023-05-23.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-05-19.md"
+                "file": "刷题/日记/2023-05-23.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-05-19.md",
+                "file": "刷题/日记/2023-05-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,9 @@
   },
   "active": "8bd7e8f2e950e427",
   "lastOpenFiles": [
-    "刷题/日记/2023-05-1.md",
     "刷题/日记/2023-05-19.md",
+    "刷题/日记/2023-05-23.md",
+    "刷题/日记/2023-05-1.md",
     "linux/如何在ubuntu安装多个gcc版本.md",
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-21.md",
@@ -202,7 +203,6 @@
     "IOT",
     "工具/obsidian git 连接远程仓库.md",
     "刷题/日记/2023-04-25.md",
-    "刷题/记录.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
