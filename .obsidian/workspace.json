@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,7 +172,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8bd7e8f2e950e427",
+  "active": "76f23e76b2aae190",
   "lastOpenFiles": [
     "刷题/日记/2023-05-26.md",
     "刷题/日记/2023-05-28.md",
