@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 229.5
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -199,8 +199,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff9dc4797c2c1243",
+  "active": "76f23e76b2aae190",
   "lastOpenFiles": [
+    "webserver",
     "工具/obsidian git 连接远程仓库.md",
     "刷题/日记/2023-07-01.md",
     "刷题/日记/2023-05-30.md",
@@ -226,7 +227,6 @@
     "刷题/日记/2023-05-24.md",
     "刷题/日记/2023-05-10.md",
     "刷题/日记/2023-05-11.md",
-    "刷题/日记/2023-05-09.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
