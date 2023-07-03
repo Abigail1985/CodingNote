@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webserver/文件描述符.md",
+                "file": "刷题/日记/2023-07-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/文件描述符.md",
+                "file": "刷题/日记/2023-07-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/文件描述符.md"
+                "file": "刷题/日记/2023-07-03.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/文件描述符.md",
+                "file": "刷题/日记/2023-07-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,6 +202,7 @@
   "active": "ff9dc4797c2c1243",
   "lastOpenFiles": [
     "刷题/日记/2023-07-01.md",
+    "刷题/日记/2023-07-03.md",
     "webserver/文件描述符.md",
     "webserver",
     "工具/obsidian git 连接远程仓库.md",
@@ -227,7 +228,6 @@
     "刷题/日记/2023-06-02.md",
     "刷题/日记/2023-05-24.md",
     "刷题/日记/2023-05-10.md",
-    "刷题/日记/2023-05-11.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
