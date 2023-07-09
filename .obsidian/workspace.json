@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6086643f96d2b330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webserver/linux存储可执行文件的三个目录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/IO多路复用技术.md",
+                "file": "webserver/linux存储可执行文件的三个目录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/IO多路复用技术.md"
+                "file": "webserver/linux存储可执行文件的三个目录.md"
               }
             }
           },
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/IO多路复用技术.md",
+                "file": "webserver/linux存储可执行文件的三个目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,10 +212,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff9dc4797c2c1243",
+  "active": "6086643f96d2b330",
   "lastOpenFiles": [
-    "云开发/Question de cours.md",
     "webserver/IO多路复用技术.md",
+    "webserver/linux存储可执行文件的三个目录.md",
+    "云开发/Question de cours.md",
     "云开发/NGINX的负载均衡.md",
     "刷题/日记/2023-07-09.md",
     "刷题/日记/2023-07-03.md",
@@ -227,7 +241,6 @@
     "刷题/日记/2023-04-20.md",
     "刷题/日记/2023-04-26.md",
     "刷题/日记/2023-05-08.md",
-    "刷题/日记/2023-05-17.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
