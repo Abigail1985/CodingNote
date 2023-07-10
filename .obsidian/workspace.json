@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS学习/分发方式比较.md",
+                "file": "刷题/日记/2023-07-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SRS学习/分发方式比较.md",
+                "file": "刷题/日记/2023-07-10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS学习/分发方式比较.md"
+                "file": "刷题/日记/2023-07-10.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS学习/分发方式比较.md",
+                "file": "刷题/日记/2023-07-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +187,9 @@
   },
   "active": "6086643f96d2b330",
   "lastOpenFiles": [
-    "SRS学习/HTTP流传输技术的发展.md",
     "SRS学习/分发方式比较.md",
+    "刷题/日记/2023-07-10.md",
+    "SRS学习/HTTP流传输技术的发展.md",
     "webserver/IO多路复用技术.md",
     "SRS学习",
     "webserver/文件描述符.md",
@@ -214,7 +215,6 @@
     "刷题/日记/2023-04-17.md",
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-03.md",
-    "刷题/日记/2023-04-20.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
