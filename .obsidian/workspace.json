@@ -8,59 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bd7e8f2e950e427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-05-29.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee99ec11f2a7955e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-06-06.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff9dc4797c2c1243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webserver/IO多路复用技术.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6086643f96d2b330",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webserver/IO多路复用技术.md",
+                "file": "SRS学习/分发方式比较.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ed91f64fb4c667d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SRS学习/HTTP流传输技术的发展.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/IO多路复用技术.md",
+                "file": "SRS学习/分发方式比较.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/IO多路复用技术.md"
+                "file": "SRS学习/分发方式比较.md"
               }
             }
           },
@@ -172,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/IO多路复用技术.md",
+                "file": "SRS学习/分发方式比较.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -214,8 +187,11 @@
   },
   "active": "6086643f96d2b330",
   "lastOpenFiles": [
-    "webserver/文件描述符.md",
+    "SRS学习/HTTP流传输技术的发展.md",
+    "SRS学习/分发方式比较.md",
     "webserver/IO多路复用技术.md",
+    "SRS学习",
+    "webserver/文件描述符.md",
     "webserver/linux存储可执行文件的三个目录.md",
     "云开发/Question de cours.md",
     "云开发/NGINX的负载均衡.md",
@@ -239,8 +215,6 @@
     "刷题/日记/2023-04-09.md",
     "刷题/日记/2023-04-03.md",
     "刷题/日记/2023-04-20.md",
-    "刷题/日记/2023-04-26.md",
-    "刷题/日记/2023-05-08.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
@@ -261,7 +235,6 @@
     "XQUIC/translation",
     "XQUIC/文档",
     "XQUIC",
-    "linux",
     "网络/笔记/路由选择协议.assets/image-20221215191701361.png",
     "网络/笔记/路由选择协议.assets/image-20221215192210722.png",
     "网络/笔记/路由选择协议.assets/image-20221215175328809.png",
