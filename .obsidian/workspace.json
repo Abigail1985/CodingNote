@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS学习/未命名.md",
+                "file": "SRS学习/MCU和SFU.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SRS学习/未命名.md",
+                "file": "SRS学习/MCU和SFU.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS学习/未命名.md"
+                "file": "SRS学习/MCU和SFU.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS学习/未命名.md",
+                "file": "SRS学习/MCU和SFU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
   "active": "6086643f96d2b330",
   "lastOpenFiles": [
     "刷题/日记/2023-07-11.md",
-    "SRS学习/未命名.md",
+    "SRS学习/MCU和SFU.md",
     "SRS学习/srs部署.md",
     "SRS学习/HTTP流传输技术的发展.md",
     "刷题/日记/2023-07-10.md",
