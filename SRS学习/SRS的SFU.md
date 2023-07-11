@@ -1,3 +1,13 @@
+[https://mp.weixin.qq.com/s/xWe6f9WRhtwnpJQ8SO0Eeg](https://mp.weixin.qq.com/s/xWe6f9WRhtwnpJQ8SO0Eeg)
+
+[https://mp.weixin.qq.com/s?__biz=MzA4NTQ3MzQ5OA==&mid=2649004546&idx=1&sn=04453d2b06c734565f330592d5fee22d&chksm=87c75bb7b0b0d2a19d89a35b2829424ac3099923272cea97ff451313c7918ec7c87dc78f0118&cur_album_id=1683217451712299009&scene=189#wechat_redirect](https://mp.weixin.qq.com/s?__biz=MzA4NTQ3MzQ5OA==&mid=2649004546&idx=1&sn=04453d2b06c734565f330592d5fee22d&chksm=87c75bb7b0b0d2a19d89a35b2829424ac3099923272cea97ff451313c7918ec7c87dc78f0118&cur_album_id=1683217451712299009&scene=189#wechat_redirect)
+
+
+还有一种方案，是可以将RTC的流送到MCU，比如SRS对接OWT，这样可以获得更好的质量和体验，适合有研发能力的团队。
+
+[https://mp.weixin.qq.com/s?__biz=MzA4NTQ3MzQ5OA==&mid=2649004562&idx=1&sn=d7e812a2ad95cbf65f0ff42cddd3735e&chksm=87c75ba7b0b0d2b13cc7645c1ce1f91219ba784a7cf64310c7271a29d5fa8614e81def3c33ae&cur_album_id=1683217451712299009&scene=189#wechat_redirect](https://mp.weixin.qq.com/s?__biz=MzA4NTQ3MzQ5OA==&mid=2649004562&idx=1&sn=d7e812a2ad95cbf65f0ff42cddd3735e&chksm=87c75ba7b0b0d2b13cc7645c1ce1f91219ba784a7cf64310c7271a29d5fa8614e81def3c33ae&cur_album_id=1683217451712299009&scene=189#wechat_redirect)
+
+
 ## SFU: One to One
 
 SRS早就具备了SFU的能力，比如一对一通话、[多人通话](https://ossrs.net/lts/zh-cn/docs/v4/doc/webrtc#sfu-video-room)、[直播连麦](https://ossrs.net/lts/zh-cn/docs/v4/doc/webrtc#room-to-live)等等。在沟通中，一对一是常用而且典型的场景， 让我们一起来看看如何用SRS做直播和RTC一体化的一对一通话。
