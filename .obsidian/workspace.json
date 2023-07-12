@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS学习/srs调试.md",
+                "file": "刷题/日记/2023-07-12.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SRS学习/srs调试.md",
+                "file": "刷题/日记/2023-07-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS学习/srs调试.md"
+                "file": "刷题/日记/2023-07-12.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS学习/srs调试.md",
+                "file": "刷题/日记/2023-07-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +214,9 @@
   },
   "active": "ec115f185baa9059",
   "lastOpenFiles": [
-    "SRS学习/srs部署.md",
     "SRS学习/srs调试.md",
+    "刷题/日记/2023-07-12.md",
+    "SRS学习/srs部署.md",
     "SRS学习/SRS的SFU.md",
     "SRS学习/MCU和SFU.md",
     "SRS学习/HTTP流传输技术的发展.md",
@@ -241,7 +242,6 @@
     "刷题/日记/2023-06-07.md",
     "刷题/日记/2023-06-29.md",
     "刷题/日记/2023-06-21.md",
-    "刷题/日记/2023-06-19.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
