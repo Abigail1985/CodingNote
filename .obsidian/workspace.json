@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-07-12.md",
+                "file": "刷题/日记/2023-07-13.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-07-12.md",
+                "file": "SRS学习/srs部署.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-07-12.md"
+                "file": "SRS学习/srs部署.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-07-12.md",
+                "file": "SRS学习/srs部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,10 +212,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ec115f185baa9059",
+  "active": "d34fbf7f08d12c31",
   "lastOpenFiles": [
-    "SRS学习/srs调试.md",
+    "刷题/日记/2023-07-13.md",
     "刷题/日记/2023-07-12.md",
+    "SRS学习/srs调试.md",
     "SRS学习/srs部署.md",
     "SRS学习/SRS的SFU.md",
     "SRS学习/MCU和SFU.md",
@@ -241,7 +242,6 @@
     "刷题/日记/2023-06-05.md",
     "刷题/日记/2023-06-07.md",
     "刷题/日记/2023-06-29.md",
-    "刷题/日记/2023-06-21.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
