@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-07-15.md",
+                "file": "刷题/日记/2023-07-16.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-07-15.md",
+                "file": "刷题/日记/2023-07-16.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-07-15.md"
+                "file": "刷题/日记/2023-07-16.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-07-15.md",
+                "file": "刷题/日记/2023-07-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,8 +213,10 @@
   },
   "active": "6086643f96d2b330",
   "lastOpenFiles": [
-    "SRS学习/SRS的SFU.md",
+    "工具/Ubuntu翻墙.md",
+    "刷题/日记/2023-07-16.md",
     "刷题/日记/2023-07-15.md",
+    "SRS学习/SRS的SFU.md",
     "SRS学习/MCU和SFU.md",
     "SRS学习/srs部署.md",
     "刷题/日记/2023-07-13.md",
@@ -239,8 +241,6 @@
     "刷题/日记/2023-05-30.md",
     "刷题/日记/2023-06-03.md",
     "刷题/日记/2023-06-06.md",
-    "刷题/日记/2023-06-05.md",
-    "刷题/日记/2023-06-07.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
