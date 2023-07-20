@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-07-18.md",
+                "file": "刷题/日记/2023-07-20.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-07-18.md",
+                "file": "刷题/日记/2023-07-20.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-07-18.md"
+                "file": "刷题/日记/2023-07-20.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-07-18.md",
+                "file": "刷题/日记/2023-07-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,11 +188,12 @@
   },
   "active": "d34fbf7f08d12c31",
   "lastOpenFiles": [
-    "SRS学习/srs部署.md",
     "刷题/日记/2023-07-18.md",
+    "刷题/日记/2023-07-20.md",
+    "linux/POSIX和System V.md",
+    "SRS学习/srs部署.md",
     "SRS学习/HTTP流传输技术的发展.md",
     "刷题/日记/2023-07-13.md",
-    "linux/POSIX和System V.md",
     "刷题/日记/2023-07-16.md",
     "工具/Ubuntu翻墙.md",
     "刷题/日记/2023-07-15.md",
@@ -215,7 +216,6 @@
     "刷题/日记/2023-07-01.md",
     "webserver",
     "工具/obsidian git 连接远程仓库.md",
-    "刷题/日记/2023-05-30.md",
     "刷题/日记/images/Pasted image 20230529125105.png",
     "刷题/日记/images",
     "IOT/images/Pasted image 20230509173341.png",
