@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "刷题/日记/2023-07-26.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "刷题/日记/2023-07-26.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/二刷/1.数组.md"
+                "file": "刷题/日记/2023-07-26.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "刷题/日记/2023-07-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,9 +174,10 @@
   },
   "active": "d34fbf7f08d12c31",
   "lastOpenFiles": [
+    "刷题/二刷/1.数组.md",
+    "刷题/日记/2023-07-26.md",
     "刷题/日记/2023-04-18.md",
     "刷题/二刷/1.数组~.md",
-    "刷题/二刷/1.数组.md",
     "刷题/日记/2023-04-09.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
@@ -184,7 +185,6 @@
     "刷题/一刷/1.数组.md",
     "刷题/一刷",
     "刷题/一刷/3.哈希表.md",
-    "刷题/日记/2023-07-26.md",
     "刷题/日记/2023-07-22.md",
     "工具/如何使用Obsidian-Git.md",
     "刷题/日记/2023-07-20.md",
