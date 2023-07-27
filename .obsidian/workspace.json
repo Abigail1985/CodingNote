@@ -13,14 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-07-26.md",
+                "file": "刷题/日记/2023-07-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "fba577b0d854ab7e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/二刷/1.数组.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-07-26.md",
+                "file": "刷题/二刷/1.数组.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-07-26.md"
+                "file": "刷题/二刷/1.数组.md"
               }
             }
           },
@@ -132,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-07-26.md",
+                "file": "刷题/二刷/1.数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,10 +188,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d34fbf7f08d12c31",
+  "active": "fba577b0d854ab7e",
   "lastOpenFiles": [
-    "刷题/二刷/1.数组.md",
+    "刷题/日记/2023-07-27.md",
     "刷题/日记/2023-07-26.md",
+    "刷题/二刷/1.数组.md",
     "刷题/日记/2023-04-18.md",
     "刷题/二刷/1.数组~.md",
     "刷题/日记/2023-04-09.md",
@@ -203,7 +220,6 @@
     "刷题/日记/2023-07-11.md",
     "刷题/日记/2023-07-10.md",
     "SRS学习/分发方式比较.md",
-    "webserver/IO多路复用技术.md",
     "SRS学习",
     "webserver",
     "刷题/日记/images/Pasted image 20230529125105.png",
