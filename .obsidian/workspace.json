@@ -34,8 +34,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4de5da55755c6640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "653114064f142a84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/二刷/1.数组.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -110,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
+                "file": "刷题/二刷/1.数组.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md"
+                "file": "刷题/二刷/1.数组.md"
               }
             }
           },
@@ -148,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
+                "file": "刷题/二刷/1.数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,16 +215,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "192240233921f539",
+  "active": "653114064f142a84",
   "lastOpenFiles": [
-    "webserver/搭建笔记/c++语言异常处理.md",
     "webserver/搭建笔记/day02-不要放过任何一个错误.md",
+    "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
+    "webserver/搭建笔记/day11-完善线程池，加入一个简单的测试程序.md",
+    "webserver/搭建笔记/day13-C++工程化、代码分析、性能优化.md",
+    "webserver/搭建笔记/c++语言异常处理.md",
     "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
     "webserver/搭建笔记/day15-macOS支持、完善业务逻辑自定义.md",
     "webserver/搭建笔记/day14-支持业务逻辑自定义、完善Connection类.md",
-    "webserver/搭建笔记/day13-C++工程化、代码分析、性能优化.md",
     "webserver/搭建笔记/day12-将服务器改写为主从Reactor多线程模式.md",
-    "webserver/搭建笔记/day11-完善线程池，加入一个简单的测试程序.md",
     "webserver/搭建笔记/day10-加入线程池到服务器.md",
     "webserver/搭建笔记/day09-缓冲区-大作用.md",
     "webserver/搭建笔记/day08-一切皆是类，连TCP连接也不例外.md",
@@ -207,7 +234,6 @@
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
     "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
-    "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
     "webserver/linux存储可执行文件的三个目录.md",
     "webserver/搭建笔记",
     "webserver/IO多路复用技术.md",
