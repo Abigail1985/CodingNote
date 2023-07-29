@@ -8,35 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d34fbf7f08d12c31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-07-27.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fba577b0d854ab7e",
+            "id": "192240233921f539",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5b1b56ab466a8475",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webserver/搭建笔记/c++语言异常处理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0394e70f62e0ddb5",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/二刷/1.数组.md"
+                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/二刷/1.数组.md",
+                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,38 +189,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b143fa9b1e470f1e",
+  "active": "192240233921f539",
   "lastOpenFiles": [
+    "webserver/搭建笔记/c++语言异常处理.md",
+    "webserver/搭建笔记/day02-不要放过任何一个错误.md",
+    "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
+    "webserver/搭建笔记/day15-macOS支持、完善业务逻辑自定义.md",
+    "webserver/搭建笔记/day14-支持业务逻辑自定义、完善Connection类.md",
+    "webserver/搭建笔记/day13-C++工程化、代码分析、性能优化.md",
+    "webserver/搭建笔记/day12-将服务器改写为主从Reactor多线程模式.md",
+    "webserver/搭建笔记/day11-完善线程池，加入一个简单的测试程序.md",
+    "webserver/搭建笔记/day10-加入线程池到服务器.md",
+    "webserver/搭建笔记/day09-缓冲区-大作用.md",
+    "webserver/搭建笔记/day08-一切皆是类，连TCP连接也不例外.md",
+    "webserver/搭建笔记/day07-为我们的服务器添加一个Acceptor.md",
+    "webserver/搭建笔记/day06-服务器与事件驱动核心类登场.md",
+    "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
+    "webserver/搭建笔记/day04-来看看我们的第一个类.md",
+    "webserver/搭建笔记/day03-高并发还得用epoll.md",
+    "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
+    "webserver/linux存储可执行文件的三个目录.md",
+    "webserver/搭建笔记",
+    "webserver/IO多路复用技术.md",
+    "webserver/文件描述符.md",
+    "刷题/二刷/1.数组.md",
     "刷题/日记/2023-07-27.md",
     "刷题/日记/2023-07-26.md",
-    "刷题/二刷/1.数组.md",
     "刷题/日记/2023-04-18.md",
     "刷题/二刷/1.数组~.md",
     "刷题/日记/2023-04-09.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
     "刷题/images/Pasted image 20230331134506.png",
-    "刷题/一刷/1.数组.md",
     "刷题/一刷",
-    "刷题/一刷/3.哈希表.md",
-    "刷题/日记/2023-07-22.md",
-    "工具/如何使用Obsidian-Git.md",
-    "刷题/日记/2023-07-20.md",
-    "linux/POSIX和System V.md",
-    "刷题/日记/2023-07-18.md",
-    "SRS学习/srs部署.md",
-    "SRS学习/HTTP流传输技术的发展.md",
-    "刷题/日记/2023-07-13.md",
-    "刷题/日记/2023-07-16.md",
-    "工具/Ubuntu翻墙.md",
-    "刷题/日记/2023-07-15.md",
-    "SRS学习/SRS的SFU.md",
-    "SRS学习/MCU和SFU.md",
-    "刷题/日记/2023-07-12.md",
-    "SRS学习/srs调试.md",
-    "刷题/日记/2023-07-11.md",
-    "刷题/日记/2023-07-10.md",
-    "SRS学习/分发方式比较.md",
     "SRS学习",
     "webserver",
     "刷题/日记/images/Pasted image 20230529125105.png",
@@ -237,7 +239,6 @@
     "刷题/日记",
     "并行计算/images/Pasted image 20230215103247.png",
     "刷题/images",
-    "XQUIC/translation",
     "网络/笔记/路由选择协议.assets/image-20221215191701361.png",
     "网络/笔记/路由选择协议.assets/image-20221215192210722.png",
     "网络/笔记/路由选择协议.assets/image-20221215175328809.png",
