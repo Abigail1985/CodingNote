@@ -32,14 +32,14 @@ struct epoll_event {
   epoll_data_t data;	/* User data variable */
 } __EPOLL_PACKED;
 ```
-epoll默认采用LT触发模式，即水平触发，只要fd上有事件，就会一直通知内核。这样可以保证所有事件都得到处理、不容易丢失，但可能发生的大量重复通知也会影响epoll的性能。如使用ET模式，即边缘触法，fd从无事件到有事件的变化会通知内核一次，之后就不会再次通知内核。这种方式十分高效，可以大大提高支持的并发度，但程序逻辑必须一次性很好地处理该fd上的事件，编程比LT更繁琐。注意ET模式必须搭配非阻塞式socket使用。
+epoll默认采用LT触发模式，即水平触发，只要fd上有事件，就会一直通知内核。这样可以保证所有事件都得到处理、不容易丢失，但可能发生的大量重复通知也会影响epoll的性能。如使用ET模式，即边缘触法，fd从无事件到有事件的变化会通知内核一次，之后就不会再次通知内核。这种方式十分高效，可以大大提高支持的并发度，==但程序逻辑必须一次性很好地处理该fd上的事件，编程比LT更繁琐==。注意ET模式必须搭配非阻塞式socket使用。
 > 非阻塞式socket和阻塞式有很大的不同，请参考《UNIX网络编程：卷1》第三部分第16章。
 
 我们可以随时使用`epoll_wait`获取有事件发生的fd：
 ```cpp
 int nfds = epoll_wait(epfd, events, maxevents, timeout);
 ```
-其中events是一个epoll_event结构体数组，maxevents是可供返回的最大事件大小，一般是events的大小，timeout表示最大等待时间，设置为-1表示一直等待。
+其中==events是一个epoll_event结构体数组，maxevents是可供返回的最大事件大小==，一般是events的大小，timeout表示最大等待时间，设置为-1表示一直等待。
 
 接下来将day02的服务器改写成epoll版本，基本思想为：在创建了服务器socket fd后，将这个fd添加到epoll，只要这个fd上发生可读事件，表示有一个新的客户端连接。然后accept这个客户端并将客户端的socket fd添加到epoll，epoll会监听客户端socket fd是否有事件发生，如果发生则处理事件。
 
