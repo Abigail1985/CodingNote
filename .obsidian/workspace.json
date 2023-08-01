@@ -8,61 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "192240233921f539",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webserver/搭建笔记/day02-不要放过任何一个错误.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "5b1b56ab466a8475",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webserver/搭建笔记/c++语言异常处理.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4de5da55755c6640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "653114064f142a84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webserver/搭建笔记/day03-高并发还得用epoll.md",
+                "file": "webserver/避免头文件的重复包含.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/搭建笔记/day03-高并发还得用epoll.md",
+                "file": "webserver/避免头文件的重复包含.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/搭建笔记/day03-高并发还得用epoll.md"
+                "file": "webserver/避免头文件的重复包含.md"
               }
             }
           },
@@ -174,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/搭建笔记/day03-高并发还得用epoll.md",
+                "file": "webserver/避免头文件的重复包含.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,8 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76f23e76b2aae190",
+  "active": "653114064f142a84",
   "lastOpenFiles": [
+    "webserver/搭建笔记/day04-来看看我们的第一个类.md",
+    "webserver/避免头文件的重复包含.md",
+    "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "刷题/日记/2023-07-31.md",
     "刷题/日记/2023-07-29.md",
     "刷题/二刷/1.数组.md",
@@ -237,13 +198,10 @@
     "webserver/搭建笔记/day07-为我们的服务器添加一个Acceptor.md",
     "webserver/搭建笔记/day06-服务器与事件驱动核心类登场.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
-    "webserver/搭建笔记/day04-来看看我们的第一个类.md",
-    "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/linux存储可执行文件的三个目录.md",
     "webserver/搭建笔记",
     "webserver/IO多路复用技术.md",
     "webserver/文件描述符.md",
-    "刷题/日记/2023-07-27.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
     "刷题/images/Pasted image 20230331134506.png",
