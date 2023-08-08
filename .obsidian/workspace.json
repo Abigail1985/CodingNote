@@ -175,6 +175,8 @@
   },
   "active": "653114064f142a84",
   "lastOpenFiles": [
+    "刷题/日记/2023-08-08.md",
+    "刷题/日记/2023-08-03.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
@@ -200,8 +202,6 @@
     "webserver/搭建笔记/day10-加入线程池到服务器.md",
     "webserver/linux存储可执行文件的三个目录.md",
     "webserver/搭建笔记",
-    "webserver/IO多路复用技术.md",
-    "webserver/文件描述符.md",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
     "刷题/images/Pasted image 20230331134506.png",
