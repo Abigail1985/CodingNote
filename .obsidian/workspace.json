@@ -14,8 +14,22 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "674d3e44bae19d01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git使用.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git使用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "git使用.md"
+              }
             }
           },
           {
@@ -124,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "git使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +182,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ffda4a0d74dcbf24",
+  "active": "674d3e44bae19d01",
   "lastOpenFiles": [
+    "git使用.md",
     "刷题/日记/2023-09-12.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
     "webserver/搭建笔记/day04-来看看我们的第一个类.md",
@@ -191,7 +210,6 @@
     "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
     "webserver/搭建笔记/day02-不要放过任何一个错误.md",
     "webserver/避免头文件的重复包含.md",
-    "刷题/日记/2023-07-31.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
