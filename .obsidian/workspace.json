@@ -27,9 +27,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ac7858dbb36236e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/日记/2023-09-13.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git使用.md",
+                "file": "刷题/日记/2023-09-13.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git使用.md"
+                "file": "刷题/日记/2023-09-13.md"
               }
             }
           },
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git使用.md",
+                "file": "刷题/日记/2023-09-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +174,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "cbf25db9e48d8ccd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -182,8 +205,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "674d3e44bae19d01",
+  "active": "ac7858dbb36236e8",
   "lastOpenFiles": [
+    "刷题/日记/2023-09-13.md",
     "git使用.md",
     "刷题/日记/2023-09-12.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
@@ -209,7 +233,6 @@
     "刷题/日记/2023-08-03.md",
     "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
     "webserver/搭建笔记/day02-不要放过任何一个错误.md",
-    "webserver/避免头文件的重复包含.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
