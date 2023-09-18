@@ -47,7 +47,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-09-14.md",
+                "file": "刷题/日记/2023-09-18.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdd23e7b92471172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "刷题/日记/未命名 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -129,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-09-14.md",
+                "file": "刷题/日记/未命名 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-09-14.md"
+                "file": "刷题/日记/未命名 1.md"
               }
             }
           },
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-09-14.md",
+                "file": "刷题/日记/未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +231,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b755bf0907a1ecd1",
+  "active": "fdd23e7b92471172",
   "lastOpenFiles": [
+    "刷题/日记/2023-09-18.md",
+    "刷题/日记/未命名 1.md",
     "刷题/日记/2023-09-14.md",
     "刷题/日记/2023-09-13.md",
     "git使用.md",
@@ -244,8 +259,6 @@
     "webserver/搭建笔记/day07-为我们的服务器添加一个Acceptor.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "刷题/日记/2023-08-08.md",
-    "刷题/日记/2023-08-03.md",
-    "webserver/搭建笔记/day16-重构核心库、使用智能指针.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
