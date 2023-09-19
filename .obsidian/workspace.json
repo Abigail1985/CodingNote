@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git使用.md",
+                "file": "webserver/IO多路复用技术.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,38 +29,12 @@
             }
           },
           {
-            "id": "ac7858dbb36236e8",
+            "id": "1c9bc19c683d24d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-09-13.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b755bf0907a1ecd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-09-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdd23e7b92471172",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "webserver/epoll.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "webserver/epoll.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-09-19.md"
+                "file": "webserver/epoll.md"
               }
             }
           },
@@ -180,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "webserver/epoll.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,34 +205,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdd23e7b92471172",
+  "active": "76f23e76b2aae190",
   "lastOpenFiles": [
-    "刷题/日记/ubuntu  远程桌面xrdp安装脚本.md",
-    "刷题/日记/2023-09-19.md",
-    "刷题/日记/2023-09-18.md",
-    "刷题/日记/2023-09-14.md",
-    "刷题/日记/2023-09-13.md",
-    "git使用.md",
-    "刷题/日记/2023-09-12.md",
+    "webserver/IO多路复用技术.md",
+    "webserver/epoll.md",
+    "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
+    "刷题/日记/2023-07-26.md",
+    "刷题/日记/2023-07-29.md",
+    "刷题/日记/2023-07-27.md",
+    "刷题/日记/2023-07-31.md",
+    "刷题/日记/2023-08-03.md",
+    "刷题/日记/2023-08-08.md",
+    "刷题/日记/2023-08-14.md",
+    "刷题/日记/2023-08-15.md",
+    "刷题/日记/2023-08-16.md",
+    "刷题/日记/2023-08-20.md",
+    "刷题/日记/2023-08-28.md",
+    "刷题/日记/2023-09-12.md",
+    "刷题/日记/2023-09-13.md",
+    "刷题/日记/2023-09-14.md",
+    "刷题/日记/2023-09-18.md",
+    "刷题/日记/2023-09-19.md",
+    "git使用.md",
+    "刷题/日记/ubuntu  远程桌面xrdp安装脚本.md",
     "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/搭建笔记/day06-服务器与事件驱动核心类登场.md",
     "webserver/搭建笔记/day09-缓冲区-大作用.md",
     "webserver/搭建笔记/day10-加入线程池到服务器.md",
-    "webserver/搭建笔记/day01-从一个最简单的socket开始.md",
-    "SRS学习/分发方式比较.md",
-    "刷题/日记/2023-08-28.md",
-    "刷题/日记/2023-08-20.md",
-    "刷题/日记/2023-08-16.md",
-    "刷题/日记/2023-08-15.md",
-    "刷题/日记/2023-08-14.md",
-    "webserver/搭建笔记/day14-支持业务逻辑自定义、完善Connection类.md",
-    "webserver/搭建笔记/day08-一切皆是类，连TCP连接也不例外.md",
-    "webserver/搭建笔记/day13-C++工程化、代码分析、性能优化.md",
-    "webserver/搭建笔记/day12-将服务器改写为主从Reactor多线程模式.md",
-    "webserver/搭建笔记/day11-完善线程池，加入一个简单的测试程序.md",
-    "webserver/搭建笔记/day07-为我们的服务器添加一个Acceptor.md",
-    "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",

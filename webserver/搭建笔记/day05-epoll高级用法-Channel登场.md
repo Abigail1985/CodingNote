@@ -17,7 +17,7 @@ struct epoll_event {
   epoll_data_t data;	/* User data variable */
 } __EPOLL_PACKED;
 ```
-可以看到，epoll中的`data`其实是一个union类型，可以储存一个指针。而通过指针，理论上我们可以指向任何一个地址块的内容，可以是一个类的对象，这样就可以将一个文件描述符封装成一个`Channel`类，一个Channel类自始至终只负责一个文件描述符，对不同的服务、不同的事件类型，都可以在类中进行不同的处理，而不是仅仅拿到一个`int`类型的文件描述符。
+可以看到，epoll中的`data`其实是一个union类型，可以储存一个指针。而通过指针，理论上我们可以指向任何一个地址块的内容，可以是一个类的对象，==这样就可以将一个文件描述符封装成一个`Channel`类，一个Channel类自始至终只负责一个文件描述符，对不同的服务、不同的事件类型，都可以在类中进行不同的处理==，而不是仅仅拿到一个`int`类型的文件描述符。
 > 这里读者务必先了解C++中的union类型，在《C++ Primer（第五版）》第十九章第六节有详细说明。
 
 `Channel`类的核心成员如下：
@@ -31,10 +31,16 @@ private:
     bool inEpoll;
 };
 ```
-显然每个文件描述符会被分发到一个`Epoll`类，用一个`ep`指针来指向。类中还有这个`Channel`负责的文件描述符。另外是两个事件变量，`events`表示希望监听这个文件描述符的哪些事件，因为不同事件的处理方式不一样。`revents`表示在`epoll`返回该`Channel`时文件描述符正在发生的事件。`inEpoll`表示当前`Channel`是否已经在`epoll`红黑树中，为了注册`Channel`的时候方便区分使用`EPOLL_CTL_ADD`还是`EPOLL_CTL_MOD`。
+显然每个文件描述符会被分发到一个`Epoll`类，用一个`ep`指针来指向。类中还有这个`Channel`负责的文件描述符。另外是两个事件变量，
+`events`表示希望监听这个文件描述符的哪些事件，因为不同事件的处理方式不一样。
+
+`revents`表示在`epoll`返回该`Channel`时文件描述符正在发生的事件。
+
+`inEpoll`表示当前`Channel`是否已经在`epoll`红黑树中，为了注册`Channel`的时候方便区分使用`EPOLL_CTL_ADD`还是`EPOLL_CTL_MOD`。
 
 接下来以`Channel`的方式使用epoll：
-新建一个`Channel`时，必须说明该`Channel`与哪个`epoll`和`fd`绑定：
+
+==新建一个`Channel`时，必须说明该`Channel`与哪个`epoll`和`fd`绑定==：
 ```cpp
 Channel *servChannel = new Channel(ep, serv_sock->getFd());
 ```
@@ -53,6 +59,7 @@ void Channel::enableReading(){
 ```cpp
 void Epoll::updateChannel(Channel *channel){
     int fd = channel->getFd();  //拿到Channel的文件描述符
+    
     struct epoll_event ev;
     bzero(&ev, sizeof(ev));
     ev.data.ptr = channel;
