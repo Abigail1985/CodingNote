@@ -34,10 +34,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webserver/epoll.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0985c30f811c8ef6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
               }
             }
           }
@@ -116,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webserver/epoll.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webserver/epoll.md"
+                "file": "刷题/日记/2023-09-19.md"
               }
             }
           },
@@ -154,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webserver/epoll.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,10 +215,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76f23e76b2aae190",
+  "active": "1c9bc19c683d24d1",
   "lastOpenFiles": [
-    "webserver/IO多路复用技术.md",
+    "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/epoll.md",
+    "webserver/IO多路复用技术.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
     "刷题/日记/2023-07-26.md",
@@ -229,7 +240,6 @@
     "刷题/日记/2023-09-19.md",
     "git使用.md",
     "刷题/日记/ubuntu  远程桌面xrdp安装脚本.md",
-    "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/搭建笔记/day06-服务器与事件驱动核心类登场.md",
     "webserver/搭建笔记/day09-缓冲区-大作用.md",
     "webserver/搭建笔记/day10-加入线程池到服务器.md",
