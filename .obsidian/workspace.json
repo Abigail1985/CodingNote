@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/未命名 1.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/未命名 1.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/未命名 1.md"
+                "file": "刷题/日记/2023-09-19.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/未命名 1.md",
+                "file": "刷题/日记/2023-09-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,8 +233,9 @@
   },
   "active": "fdd23e7b92471172",
   "lastOpenFiles": [
+    "刷题/日记/ubuntu  远程桌面xrdp安装脚本.md",
+    "刷题/日记/2023-09-19.md",
     "刷题/日记/2023-09-18.md",
-    "刷题/日记/未命名 1.md",
     "刷题/日记/2023-09-14.md",
     "刷题/日记/2023-09-13.md",
     "git使用.md",
@@ -258,7 +259,6 @@
     "webserver/搭建笔记/day11-完善线程池，加入一个简单的测试程序.md",
     "webserver/搭建笔记/day07-为我们的服务器添加一个Acceptor.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
-    "刷题/日记/2023-08-08.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
