@@ -29,25 +29,15 @@
             }
           },
           {
-            "id": "1c9bc19c683d24d1",
+            "id": "0985c30f811c8ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "刷题/日记/2023-11-08.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0985c30f811c8ef6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
               }
             }
           }
@@ -126,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "刷题/日记/2023-11-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题/日记/2023-09-19.md"
+                "file": "刷题/日记/2023-11-08.md"
               }
             }
           },
@@ -164,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题/日记/2023-09-19.md",
+                "file": "刷题/日记/2023-11-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,11 +205,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c9bc19c683d24d1",
+  "active": "0985c30f811c8ef6",
   "lastOpenFiles": [
+    "刷题/日记/2023-11-08.md",
+    "webserver/IO多路复用技术.md",
+    "刷题/日记/2023-09-19.md",
     "webserver/搭建笔记/day04-来看看我们的第一个类.md",
     "webserver/epoll.md",
-    "webserver/IO多路复用技术.md",
     "webserver/搭建笔记/day03-高并发还得用epoll.md",
     "webserver/搭建笔记/day05-epoll高级用法-Channel登场.md",
     "刷题/日记/2023-07-26.md",
@@ -237,12 +229,10 @@
     "刷题/日记/2023-09-13.md",
     "刷题/日记/2023-09-14.md",
     "刷题/日记/2023-09-18.md",
-    "刷题/日记/2023-09-19.md",
     "git使用.md",
     "刷题/日记/ubuntu  远程桌面xrdp安装脚本.md",
     "webserver/搭建笔记/day06-服务器与事件驱动核心类登场.md",
     "webserver/搭建笔记/day09-缓冲区-大作用.md",
-    "webserver/搭建笔记/day10-加入线程池到服务器.md",
     "webserver/搭建笔记",
     "刷题/images/339571679472020_.pic.jpg",
     "刷题/二刷",
